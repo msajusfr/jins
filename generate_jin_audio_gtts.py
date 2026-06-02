@@ -4,14 +4,15 @@
 from __future__ import annotations
 
 from pathlib import Path
+from typing import Any
 
 from gtts import gTTS
-import pygame
 
 from jin_data import JIN_ENTRIES, JinEntry, slugify
 
 AUDIO_DIR = Path("audio")
 _mixer_ready = False
+_pygame: Any | None = None
 
 
 def get_audio_filename(jin: JinEntry) -> str:
@@ -29,15 +30,31 @@ def create_audio(jin: JinEntry, output_dir: Path | str = AUDIO_DIR) -> Path:
     return output_path
 
 
-def _ensure_mixer() -> None:
+def _load_pygame() -> Any:
+    global _pygame
+    if _pygame is None:
+        try:
+            import pygame
+        except ModuleNotFoundError as exc:
+            raise RuntimeError(
+                "Le module pygame est manquant. Installe les dependances avec : "
+                "python -m pip install -r requirements.txt"
+            ) from exc
+        _pygame = pygame
+    return _pygame
+
+
+def _ensure_mixer() -> Any:
     global _mixer_ready
+    pygame = _load_pygame()
     if not _mixer_ready:
         pygame.mixer.init()
         _mixer_ready = True
+    return pygame
 
 
 def play_audio_file(audio_path: Path) -> None:
-    _ensure_mixer()
+    pygame = _ensure_mixer()
     pygame.mixer.music.stop()
     pygame.mixer.music.load(str(audio_path))
     pygame.mixer.music.play()
