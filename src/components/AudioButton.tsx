@@ -5,15 +5,16 @@ import type { JinEntry } from "../types";
 
 type AudioButtonProps = {
   jin: JinEntry;
+  voiceURI?: string;
 };
 
-export function AudioButton({ jin }: AudioButtonProps) {
+export function AudioButton({ jin, voiceURI }: AudioButtonProps) {
   const [status, setStatus] = useState<"idle" | "playing" | "error">("idle");
 
   async function handleClick() {
     try {
       setStatus("playing");
-      await playOrCreateAudio(jin);
+      await playOrCreateAudio(jin, voiceURI);
       window.setTimeout(() => setStatus("idle"), 1100);
     } catch {
       setStatus("error");

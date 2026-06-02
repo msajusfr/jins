@@ -4,8 +4,10 @@ import { JinDetail } from "../components/JinDetail";
 import { JinList } from "../components/JinList";
 import { LanguageSelector } from "../components/LanguageSelector";
 import { SearchPanel } from "../components/SearchPanel";
+import { VoiceSelector } from "../components/VoiceSelector";
 import { jins } from "../data/jins";
 import { useJinSearch } from "../hooks/useJinSearch";
+import { useSpeechVoices } from "../hooks/useSpeechVoices";
 import type { Locale } from "../i18n";
 import { uiText } from "../i18n";
 import { playOrCreateAudio } from "../services/audioService";
@@ -14,8 +16,10 @@ import type { JinEntry } from "../types";
 export function HomePage() {
   const [query, setQuery] = useState("");
   const [locale, setLocale] = useState<Locale>("fr");
+  const [selectedVoiceURI, setSelectedVoiceURI] = useState<string | undefined>();
   const [selectedJin, setSelectedJin] = useState<JinEntry | undefined>();
   const filteredJins = useJinSearch(jins, query);
+  const speechVoices = useSpeechVoices();
   const familyCount = useMemo(() => new Set(jins.map((jin) => jin.family)).size, []);
   const text = uiText[locale];
 
@@ -28,7 +32,7 @@ export function HomePage() {
   async function handleSelectJin(jin: JinEntry) {
     setSelectedJin(jin);
     try {
-      await playOrCreateAudio(jin);
+      await playOrCreateAudio(jin, selectedVoiceURI);
     } catch {
       // Audio support varies by browser; selection should still work.
     }
@@ -44,6 +48,12 @@ export function HomePage() {
           </div>
           <div className="flex flex-col items-start gap-3 md:items-end">
             <LanguageSelector locale={locale} onLocaleChange={setLocale} />
+            <VoiceSelector
+              voices={speechVoices}
+              selectedVoiceURI={selectedVoiceURI}
+              locale={locale}
+              onVoiceChange={setSelectedVoiceURI}
+            />
             <p className="max-w-xl text-sm leading-6 text-rice/62 md:text-right">
               {text.subtitle(jins.length, familyCount)}
             </p>
@@ -66,7 +76,11 @@ export function HomePage() {
             />
           </aside>
 
-          {selectedJin ? <JinDetail jin={selectedJin} locale={locale} /> : <EmptyState locale={locale} />}
+          {selectedJin ? (
+            <JinDetail jin={selectedJin} locale={locale} voiceURI={selectedVoiceURI} />
+          ) : (
+            <EmptyState locale={locale} />
+          )}
         </div>
       </div>
     </main>

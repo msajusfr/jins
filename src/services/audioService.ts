@@ -16,15 +16,28 @@ function getVoicesWhenReady() {
   });
 }
 
-async function findPreferredVoice() {
+export async function getAvailableSpeechVoices() {
   const voices = await getVoicesWhenReady();
+  const chineseVoices = voices.filter((voice) => voice.lang.toLowerCase().startsWith("zh"));
+  return chineseVoices.length > 0 ? chineseVoices : voices;
+}
+
+async function findPreferredVoice(voiceURI?: string) {
+  const voices = await getVoicesWhenReady();
+  if (voiceURI) {
+    const selectedVoice = voices.find((voice) => voice.voiceURI === voiceURI);
+    if (selectedVoice) {
+      return selectedVoice;
+    }
+  }
+
   return (
     voices.find((voice) => voice.lang.toLowerCase() === "zh-cn") ??
     voices.find((voice) => voice.lang.toLowerCase().startsWith("zh"))
   );
 }
 
-export async function playOrCreateAudio(jin: JinEntry) {
+export async function playOrCreateAudio(jin: JinEntry, voiceURI?: string) {
   if (!("speechSynthesis" in window)) {
     throw new Error("La synthèse vocale n'est pas disponible dans ce navigateur.");
   }
@@ -36,7 +49,7 @@ export async function playOrCreateAudio(jin: JinEntry) {
   utterance.pitch = 0.95;
   utterance.lang = "zh-CN";
 
-  const voice = await findPreferredVoice();
+  const voice = await findPreferredVoice(voiceURI);
   if (voice) {
     utterance.voice = voice;
   }

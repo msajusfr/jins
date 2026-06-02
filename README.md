@@ -42,3 +42,5 @@ npm run preview
 L'application utilise la Web Speech API disponible dans les navigateurs modernes. Aucun backend, aucune clé API et aucune génération serveur ne sont nécessaires.
 
 Si le navigateur ne supporte pas la synthèse vocale, l'application affiche simplement une erreur dans l'interface.
+
+Le sélecteur de voix affiche les voix chinoises disponibles dans le navigateur. Si aucune voix chinoise n'est exposée par le système, l'application propose les voix disponibles en fallback.

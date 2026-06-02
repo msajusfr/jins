@@ -6,6 +6,7 @@ import type { JinEntry } from "../types";
 type JinDetailProps = {
   jin: JinEntry;
   locale: Locale;
+  voiceURI?: string;
 };
 
 const sections: Array<keyof Pick<
@@ -27,7 +28,7 @@ const sections: Array<keyof Pick<
   "masteryMilestone",
 ];
 
-export function JinDetail({ jin, locale }: JinDetailProps) {
+export function JinDetail({ jin, locale, voiceURI }: JinDetailProps) {
   return (
     <article className="relative flex min-h-0 flex-1 flex-col overflow-hidden rounded-xl border border-white/10 bg-panel/90 shadow-warm">
       <header className="relative border-b border-white/10 p-5 md:p-7">
@@ -39,7 +40,7 @@ export function JinDetail({ jin, locale }: JinDetailProps) {
               {jin.displayName} · {localizeFamily(jin.family, locale)}
             </p>
           </div>
-          <AudioButton jin={jin} />
+          <AudioButton jin={jin} voiceURI={voiceURI} />
         </div>
       </header>
       <div className="min-h-0 flex-1 overflow-y-auto p-5 md:p-7">
