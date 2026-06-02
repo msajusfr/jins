@@ -135,6 +135,6 @@ export const jins: JinEntry[] = rawJins.map((jin) => {
     ...jin,
     ...defaultDetail(jin),
     ...detailOverrides[id],
-    audioText: jin.displayName,
+    audioText: jin.chinese,
   };
 });

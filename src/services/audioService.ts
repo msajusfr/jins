@@ -1,11 +1,26 @@
 import type { JinEntry } from "../types";
 
-function findPreferredVoice() {
+function getVoicesWhenReady() {
   const voices = window.speechSynthesis.getVoices();
+  if (voices.length > 0) {
+    return Promise.resolve(voices);
+  }
+
+  return new Promise<SpeechSynthesisVoice[]>((resolve) => {
+    window.speechSynthesis.addEventListener(
+      "voiceschanged",
+      () => resolve(window.speechSynthesis.getVoices()),
+      { once: true },
+    );
+    window.setTimeout(() => resolve(window.speechSynthesis.getVoices()), 500);
+  });
+}
+
+async function findPreferredVoice() {
+  const voices = await getVoicesWhenReady();
   return (
-    voices.find((voice) => voice.lang.toLowerCase().startsWith("zh")) ??
-    voices.find((voice) => voice.lang.toLowerCase().startsWith("en")) ??
-    voices[0]
+    voices.find((voice) => voice.lang.toLowerCase() === "zh-cn") ??
+    voices.find((voice) => voice.lang.toLowerCase().startsWith("zh"))
   );
 }
 
@@ -21,7 +36,7 @@ export async function playOrCreateAudio(jin: JinEntry) {
   utterance.pitch = 0.95;
   utterance.lang = "zh-CN";
 
-  const voice = findPreferredVoice();
+  const voice = await findPreferredVoice();
   if (voice) {
     utterance.voice = voice;
   }
