@@ -1,18 +1,17 @@
-﻿#!/usr/bin/env python3
-"""Generation audio MP3 pour les noms des Jin."""
+#!/usr/bin/env python3
+"""Generation et lecture audio MP3 pour les noms des Jin."""
 
 from __future__ import annotations
 
-import os
-import subprocess
-import sys
 from pathlib import Path
 
 from gtts import gTTS
+import pygame
 
 from jin_data import JIN_ENTRIES, JinEntry, slugify
 
 AUDIO_DIR = Path("audio")
+_mixer_ready = False
 
 
 def get_audio_filename(jin: JinEntry) -> str:
@@ -30,13 +29,18 @@ def create_audio(jin: JinEntry, output_dir: Path | str = AUDIO_DIR) -> Path:
     return output_path
 
 
+def _ensure_mixer() -> None:
+    global _mixer_ready
+    if not _mixer_ready:
+        pygame.mixer.init()
+        _mixer_ready = True
+
+
 def play_audio_file(audio_path: Path) -> None:
-    if sys.platform.startswith("win"):
-        os.startfile(audio_path)  # type: ignore[attr-defined]
-    elif sys.platform == "darwin":
-        subprocess.Popen(["open", str(audio_path)])
-    else:
-        subprocess.Popen(["xdg-open", str(audio_path)])
+    _ensure_mixer()
+    pygame.mixer.music.stop()
+    pygame.mixer.music.load(str(audio_path))
+    pygame.mixer.music.play()
 
 
 def play_or_create_audio(jin: JinEntry, output_dir: Path | str = AUDIO_DIR) -> Path:
