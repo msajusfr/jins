@@ -1,64 +1,40 @@
-﻿# Jin's
+# Jin's
 
-Application graphique pour consulter un glossaire des Jin des arts martiaux chinois et écouter le nom de chaque force.
+Web app React pour consulter un glossaire des Jìn des arts martiaux chinois et écouter leur prononciation via le navigateur.
 
-## Prérequis
+## Stack
 
-- Python 3.10 ou plus récent.
-- Une connexion Internet pour générer les fichiers audio avec `gTTS`.
-- Une sortie audio fonctionnelle sur la machine.
+- React
+- TypeScript
+- Vite
+- Tailwind CSS
+- Web Speech API du navigateur pour l'audio
 
-## API, services et dépendances
-
-### Service externe
-
-- Google Text-to-Speech, utilisé via la bibliothèque `gTTS`.
-  - Sert à générer les fichiers MP3 des noms de Jin.
-  - Utilise la langue `zh-CN` pour prononcer les caractères chinois en Mandarin.
-  - Ne nécessite pas de clé API dans ce projet.
-  - Nécessite Internet au moment de la génération audio.
-  - Une fois le MP3 créé dans `audio/`, il peut être relu sans régénération.
-
-### Dépendances Python à installer
-
-Ces dépendances sont listées dans `requirements.txt` :
+## Installation locale
 
 ```bash
-gTTS
-pygame
+npm install
+npm run dev
 ```
 
-- `gTTS` : génération des MP3 à partir du texte chinois `audio_text`.
-- `pygame` : lecture audio intégrée dans l'application, sans ouvrir le lecteur Windows par défaut.
-
-### Modules Python standards utilisés
-
-Aucune installation séparée n'est nécessaire pour ces modules :
-
-- `tkinter` : interface graphique.
-- `threading` : génération/lecture audio sans bloquer l'interface.
-- `pathlib` : gestion des chemins de fichiers.
-- `dataclasses` : modèle de données `JinEntry`.
-- `re` et `unicodedata` : génération des identifiants et noms de fichiers.
-
-## Installation
+## Build
 
 ```bash
-pip install -r requirements.txt
+npm run build
+npm run preview
 ```
 
-## Lancer l'interface graphique
+## Déploiement Vercel
 
-```bash
-python jins_gui.py
-```
+1. Push le projet sur GitHub.
+2. Importer le dépôt dans Vercel.
+3. Garder les réglages Vite par défaut :
+   - Build Command : `npm run build`
+   - Output Directory : `dist`
+4. Deploy.
 
-L'interface permet de :
+## Audio
 
-- rechercher par chinois, pinyin, nom latinise ou famille ;
-- sélectionner un Jin dans la liste ;
-- afficher son détail pédagogique ;
-- générer automatiquement le MP3 du nom si nécessaire ;
-- lire le MP3 avec l'icône haut-parleur.
+L'application utilise la Web Speech API disponible dans les navigateurs modernes. Aucun backend, aucune clé API et aucune génération serveur ne sont nécessaires.
 
-Les fichiers audio générés sont placés dans `audio/` et ignorés par Git.
+Si le navigateur ne supporte pas la synthèse vocale, l'application affiche simplement une erreur dans l'interface.
