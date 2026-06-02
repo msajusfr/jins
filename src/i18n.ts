@@ -87,6 +87,13 @@ export const sectionTitles: Record<Locale, Record<keyof Pick<
 };
 
 const familyTranslations: Record<string, Record<Exclude<Locale, "fr">, string>> = {
+  "Famille spiralée, rotative et enveloppante": { en: "Spiraling, rotating, and wrapping family", zh: "螺旋、旋转与包裹类" },
+  "Famille collante, perceptive et de contrôle": { en: "Sticking, listening, and control family", zh: "粘连、听感与控制类" },
+  "Famille d’émission, d’explosion et de pénétration": { en: "Issuing, explosive, and penetrating family", zh: "发放、爆发与穿透类" },
+  "Famille lourde, descendante et unifiante": { en: "Heavy, descending, and unifying family", zh: "沉重、下行与整合类" },
+  "Famille longue, extensive et traversante": { en: "Long, extending, and traversing family", zh: "长劲、伸展与贯通类" },
+  "Huit jìn canoniques du taijiquan": { en: "Canonical eight Jìn of Taiji Quan", zh: "太极拳八法劲" },
+  "Forces transverses des traditions Xingyi, Baji et Mantis": { en: "Transverse forces from Xingyi, Baji, and Mantis traditions", zh: "形意、八极与螳螂传统的横向劲力" },
   "Famille spiralée et enveloppante": { en: "Spiraling and wrapping family", zh: "螺旋与包裹类" },
   "Famille spiralée et pénétrante": { en: "Spiraling and penetrating family", zh: "螺旋与穿透类" },
   "Famille enveloppante": { en: "Wrapping family", zh: "包裹类" },
