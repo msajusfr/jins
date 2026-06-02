@@ -23,7 +23,7 @@ export function JinList({ jins, selectedJin, onSelect }: JinListProps) {
             }`}
           >
             <span className="block text-lg font-semibold leading-none text-rice">{jin.chinese}</span>
-            <span className="mt-2 block text-sm font-medium text-gold">{jin.displayName}</span>
+            <span className="mt-2 block text-sm font-medium text-gold">{jin.pinyin}</span>
             <span className="mt-1 block text-xs text-rice/55">{jin.family}</span>
           </button>
         );

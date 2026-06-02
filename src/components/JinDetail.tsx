@@ -18,7 +18,6 @@ const sections: Array<[keyof JinEntry, string]> = [
 export function JinDetail({ jin }: JinDetailProps) {
   return (
     <article className="relative flex min-h-0 flex-1 flex-col overflow-hidden rounded-xl border border-white/10 bg-panel/90 shadow-warm">
-      <div className="absolute right-5 top-4 select-none text-7xl text-white/[0.025] md:text-9xl">☯</div>
       <header className="relative border-b border-white/10 p-5 md:p-7">
         <div className="flex items-start justify-between gap-4">
           <div>

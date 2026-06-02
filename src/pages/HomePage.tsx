@@ -5,6 +5,7 @@ import { JinList } from "../components/JinList";
 import { SearchPanel } from "../components/SearchPanel";
 import { jins } from "../data/jins";
 import { useJinSearch } from "../hooks/useJinSearch";
+import { playOrCreateAudio } from "../services/audioService";
 import type { JinEntry } from "../types";
 
 export function HomePage() {
@@ -18,6 +19,15 @@ export function HomePage() {
       setSelectedJin(undefined);
     }
   }, [filteredJins, selectedJin]);
+
+  async function handleSelectJin(jin: JinEntry) {
+    setSelectedJin(jin);
+    try {
+      await playOrCreateAudio(jin);
+    } catch {
+      // Audio support varies by browser; selection should still work.
+    }
+  }
 
   return (
     <main className="min-h-screen px-4 py-5 text-rice sm:px-6 lg:px-8">
@@ -40,7 +50,7 @@ export function HomePage() {
               <span>{filteredJins.length} Jìn</span>
               <span>Recherche instantanée</span>
             </div>
-            <JinList jins={filteredJins} selectedJin={selectedJin} onSelect={setSelectedJin} />
+            <JinList jins={filteredJins} selectedJin={selectedJin} onSelect={handleSelectJin} />
           </aside>
 
           {selectedJin ? <JinDetail jin={selectedJin} /> : <EmptyState />}
