@@ -20,6 +20,7 @@ L'interface permet de :
 
 - generer le glossaire complet ;
 - generer un seul Jin choisi dans la liste ;
+- lire le MP3 du Jin selectionne avec le bouton haut-parleur ;
 - choisir le dossier de sortie ;
 - suivre les messages de generation.
 
@@ -29,4 +30,4 @@ L'interface permet de :
 python generate_jin_audio_gtts.py
 ```
 
-Les fichiers `.mp3` et `.wav` generes sont ignores par Git.
+Les fichiers `.mp3` generes sont ignores par Git.

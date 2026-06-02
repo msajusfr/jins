@@ -7,6 +7,8 @@ import contextlib
 import io
 import os
 import queue
+import subprocess
+import sys
 import threading
 from pathlib import Path
 from tkinter import BOTH, END, LEFT, RIGHT, X, StringVar, Tk, filedialog, messagebox, ttk
@@ -121,6 +123,13 @@ class JinAudioApp:
             command=self._start_generation,
         )
         self.generate_button.pack(side=LEFT)
+        self.play_button = ttk.Button(
+            actions,
+            text="🔊",
+            width=4,
+            command=self._play_selected_audio,
+        )
+        self.play_button.pack(side=LEFT, padx=(10, 0))
         ttk.Button(actions, text="Effacer le journal", command=self._clear_log).pack(side=LEFT, padx=(10, 0))
 
         ttk.Label(right_panel, text="Journal", style="Panel.TLabel", font=("Segoe UI", 15, "bold")).pack(anchor="w")
@@ -169,6 +178,7 @@ class JinAudioApp:
         self.is_running = True
         self.status.set("Generation en cours...")
         self.generate_button.configure(state="disabled")
+        self.play_button.configure(state="disabled")
 
         worker = threading.Thread(
             target=self._run_generation,
@@ -202,6 +212,7 @@ class JinAudioApp:
     def _unlock_generation(self) -> None:
         self.is_running = False
         self.generate_button.configure(state="normal")
+        self.play_button.configure(state="normal")
 
     def _poll_logs(self) -> None:
         while True:
@@ -218,6 +229,38 @@ class JinAudioApp:
     def _clear_log(self) -> None:
         for item in self.log_text.get_children():
             self.log_text.delete(item)
+
+    def _selected_mp3_path(self) -> Path | None:
+        selected_index = self.term_combo.current()
+        if selected_index < 0:
+            return None
+
+        _chinese, pinyin, _meaning, _section = self.terms[selected_index]
+        return Path(self.output_dir.get()).expanduser() / generator.get_single_output_mp3(pinyin)
+
+    def _play_selected_audio(self) -> None:
+        audio_path = self._selected_mp3_path()
+        if audio_path is None:
+            messagebox.showerror("Selection manquante", "Choisis un Jin dans la liste.")
+            return
+
+        if not audio_path.exists():
+            messagebox.showerror(
+                "Fichier introuvable",
+                f"Genere d'abord le MP3 selectionne :\n{audio_path}",
+            )
+            return
+
+        try:
+            if sys.platform.startswith("win"):
+                os.startfile(audio_path)  # type: ignore[attr-defined]
+            elif sys.platform == "darwin":
+                subprocess.Popen(["open", str(audio_path)])
+            else:
+                subprocess.Popen(["xdg-open", str(audio_path)])
+            self.status.set(f"Lecture : {audio_path.name}")
+        except Exception as exc:
+            messagebox.showerror("Lecture impossible", str(exc))
 
 
 def main() -> None:

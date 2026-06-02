@@ -169,8 +169,7 @@ def build_term(chinese, pinyin, meaning_fr):
 
 
 def generate_all():
-    """Génère le fichier audio complet avec tous les jins."""
-    output_wav = "Jin_Glossaire_Mandarin_Francais.wav"
+    """Génère le fichier audio MP3 complet avec tous les jins."""
     output_mp3 = "Jin_Glossaire_Mandarin_Francais.mp3"
 
     full = AudioSegment.empty()
@@ -199,11 +198,9 @@ def generate_all():
     full = normalize(full)
     full = full.set_frame_rate(44100).set_channels(2)
 
-    full.export(output_wav, format="wav")
     full.export(output_mp3, format="mp3", bitrate="192k")
 
-    print(f"\n✅ Créé : {output_wav}")
-    print(f"✅ Créé : {output_mp3}")
+    print(f"\n✅ Créé : {output_mp3}")
     print(f"📊 Durée : {len(full) / 1000 / 60:.1f} minutes")
 
 
@@ -216,13 +213,9 @@ def get_all_terms():
     return all_terms
 
 
-def generate_single(index, all_terms):
-    """Génère un fichier audio pour un seul jin."""
-    chinese, pinyin, meaning, section_intro = all_terms[index]
-
-    # Nom de fichier sécurisé
+def get_safe_pinyin_filename(pinyin):
+    """Retourne un fragment de nom de fichier sûr à partir du pinyin."""
     safe_name = pinyin.replace(" ", "_")
-    # Supprimer les accents du pinyin pour le nom de fichier
     accents = {
         "ā": "a", "á": "a", "ǎ": "a", "à": "a",
         "ē": "e", "é": "e", "ě": "e", "è": "e",
@@ -233,10 +226,18 @@ def generate_single(index, all_terms):
     }
     for accent, plain in accents.items():
         safe_name = safe_name.replace(accent, plain)
-    safe_name = "".join(c for c in safe_name if c.isalnum() or c == "_")
+    return "".join(c for c in safe_name if c.isalnum() or c == "_")
 
-    output_wav = f"Jin_{safe_name}.wav"
-    output_mp3 = f"Jin_{safe_name}.mp3"
+
+def get_single_output_mp3(pinyin):
+    return f"Jin_{get_safe_pinyin_filename(pinyin)}.mp3"
+
+
+def generate_single(index, all_terms):
+    """Génère un fichier audio MP3 pour un seul jin."""
+    chinese, pinyin, meaning, section_intro = all_terms[index]
+
+    output_mp3 = get_single_output_mp3(pinyin)
 
     print(f"\n🎵 Génération de : {chinese} ({pinyin})")
     print(f"   Section : {section_intro}")
@@ -250,10 +251,8 @@ def generate_single(index, all_terms):
     full = normalize(full)
     full = full.set_frame_rate(44100).set_channels(2)
 
-    full.export(output_wav, format="wav")
     full.export(output_mp3, format="mp3", bitrate="192k")
 
-    print(f"✅ Créé : {output_wav}")
     print(f"✅ Créé : {output_mp3}")
     print(f"📊 Durée : {len(full) / 1000:.1f} secondes")
 
