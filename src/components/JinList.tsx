@@ -1,12 +1,15 @@
+import type { Locale } from "../i18n";
+import { localizeFamily } from "../i18n";
 import type { JinEntry } from "../types";
 
 type JinListProps = {
   jins: JinEntry[];
+  locale: Locale;
   selectedJin?: JinEntry;
   onSelect: (jin: JinEntry) => void;
 };
 
-export function JinList({ jins, selectedJin, onSelect }: JinListProps) {
+export function JinList({ jins, locale, selectedJin, onSelect }: JinListProps) {
   return (
     <div className="flex min-h-0 flex-1 flex-col gap-2 overflow-y-auto pr-1">
       {jins.map((jin) => {
@@ -24,7 +27,9 @@ export function JinList({ jins, selectedJin, onSelect }: JinListProps) {
           >
             <span className="block text-lg font-semibold leading-none text-rice">{jin.chinese}</span>
             <span className="mt-2 block text-sm font-medium text-gold">{jin.pinyin}</span>
-            <span className="mt-1 block text-xs text-rice/55">{jin.family}</span>
+            <span className="mt-1 block text-xs text-rice/55">
+              {localizeFamily(jin.family, locale)}
+            </span>
           </button>
         );
       })}

@@ -10,6 +10,10 @@ Web app React pour consulter un glossaire des Jìn des arts martiaux chinois et 
 - Tailwind CSS
 - Web Speech API du navigateur pour l'audio
 
+## Langues
+
+L'interface propose trois langues via les boutons drapeaux : français, anglais et chinois.
+
 ## Installation locale
 
 ```bash
