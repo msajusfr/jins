@@ -159,7 +159,7 @@ def _build_entries() -> list[JinEntry]:
                 display_name=display_name,
                 short_definition=short_definition,
                 family=family,
-                audio_text=display_name,
+                audio_text=chinese,
                 **detail,
             )
         )

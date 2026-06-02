@@ -16,7 +16,7 @@ _pygame: Any | None = None
 
 
 def get_audio_filename(jin: JinEntry) -> str:
-    return f"{slugify(jin.display_name)}.mp3"
+    return f"{slugify(jin.display_name)}-zh-cn.mp3"
 
 
 def get_audio_path(jin: JinEntry, output_dir: Path | str = AUDIO_DIR) -> Path:
@@ -26,7 +26,7 @@ def get_audio_path(jin: JinEntry, output_dir: Path | str = AUDIO_DIR) -> Path:
 def create_audio(jin: JinEntry, output_dir: Path | str = AUDIO_DIR) -> Path:
     output_path = get_audio_path(jin, output_dir)
     output_path.parent.mkdir(parents=True, exist_ok=True)
-    gTTS(text=jin.audio_text, lang="fr", slow=False).save(str(output_path))
+    gTTS(text=jin.audio_text, lang="zh-CN", slow=False).save(str(output_path))
     return output_path
 
 

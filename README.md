@@ -14,6 +14,7 @@ Application graphique pour consulter un glossaire des Jin des arts martiaux chin
 
 - Google Text-to-Speech, utilisé via la bibliothèque `gTTS`.
   - Sert à générer les fichiers MP3 des noms de Jin.
+  - Utilise la langue `zh-CN` pour prononcer les caractères chinois en Mandarin.
   - Ne nécessite pas de clé API dans ce projet.
   - Nécessite Internet au moment de la génération audio.
   - Une fois le MP3 créé dans `audio/`, il peut être relu sans régénération.
@@ -27,7 +28,7 @@ gTTS
 pygame
 ```
 
-- `gTTS` : génération des MP3 à partir du texte `audio_text`.
+- `gTTS` : génération des MP3 à partir du texte chinois `audio_text`.
 - `pygame` : lecture audio intégrée dans l'application, sans ouvrir le lecteur Windows par défaut.
 
 ### Modules Python standards utilisés
