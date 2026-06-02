@@ -95,15 +95,17 @@ class JinApp:
             style="Subtitle.TLabel",
         ).pack(anchor="w", pady=(4, 0))
 
-        body = ttk.Frame(main, style="Root.TFrame")
-        body.pack(fill=BOTH, expand=True)
+        self.paned = ttk.PanedWindow(main, orient="horizontal")
+        self.paned.pack(fill=BOTH, expand=True)
 
-        self.left_panel = ttk.Frame(body, style="Panel.TFrame", padding=18)
-        self.left_panel.pack(side=LEFT, fill=BOTH, padx=(0, 12))
+        self.left_panel = ttk.Frame(self.paned, style="Panel.TFrame", padding=18)
         self.left_panel.configure(width=360)
 
-        self.detail_panel = ttk.Frame(body, style="Panel.TFrame", padding=18)
-        self.detail_panel.pack(side=RIGHT, fill=BOTH, expand=True, padx=(12, 0))
+        self.detail_panel = ttk.Frame(self.paned, style="Panel.TFrame", padding=18)
+
+        self.paned.add(self.left_panel, weight=0)
+        self.paned.add(self.detail_panel, weight=1)
+        self.root.after(0, lambda: self.paned.sashpos(0, 360))
 
         ttk.Label(self.left_panel, text="Forces", style="PanelTitle.TLabel").pack(anchor="w")
         search_entry = ttk.Entry(self.left_panel, textvariable=self.search)
