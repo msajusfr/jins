@@ -1,2 +1,1 @@
-gTTS
-pydub
+﻿gTTS

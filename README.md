@@ -1,14 +1,12 @@
-# Jin's
+﻿# Jin's
 
-Generateur audio des Jin des arts martiaux chinois, avec interface graphique.
+Application graphique pour consulter un glossaire des Jin des arts martiaux chinois et écouter le nom de chaque force.
 
 ## Installation
 
 ```bash
 pip install -r requirements.txt
 ```
-
-`pydub` a aussi besoin de `ffmpeg` installe sur la machine.
 
 ## Lancer l'interface graphique
 
@@ -18,16 +16,10 @@ python jins_gui.py
 
 L'interface permet de :
 
-- generer le glossaire complet ;
-- generer un seul Jin choisi dans la liste ;
-- lire le MP3 du Jin selectionne avec le bouton haut-parleur ;
-- choisir le dossier de sortie ;
-- suivre les messages de generation.
+- rechercher par chinois, pinyin, nom latinise ou famille ;
+- sélectionner un Jin dans la liste ;
+- afficher son détail pédagogique ;
+- générer automatiquement le MP3 du nom si nécessaire ;
+- lire le MP3 avec l'icône haut-parleur.
 
-## Lancer le menu console
-
-```bash
-python generate_jin_audio_gtts.py
-```
-
-Les fichiers `.mp3` generes sont ignores par Git.
+Les fichiers audio générés sont placés dans `audio/` et ignorés par Git.
