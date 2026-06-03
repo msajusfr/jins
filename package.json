@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "book:build": "node scripts/build-localized-book.mjs && node scripts/build-book-data.mjs",
     "build": "tsc -b && vite build",
     "preview": "vite preview"
   },

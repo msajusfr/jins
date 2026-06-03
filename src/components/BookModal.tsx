@@ -12,17 +12,17 @@ const labels: Record<Locale, { source: string; close: string; note: string }> = 
   fr: {
     source: "Source",
     close: "Fermer",
-    note: "Texte du livre source. Les fichiers Markdown fournis sont en français.",
+    note: "Texte du livre dans la langue sélectionnée.",
   },
   en: {
     source: "Source",
     close: "Close",
-    note: "Source book text. The provided Markdown files are in French.",
+    note: "Book text in the selected language.",
   },
   zh: {
     source: "来源",
     close: "关闭",
-    note: "书籍源文本。当前提供的 Markdown 文件为法语。",
+    note: "当前所选语言的书籍文本。",
   },
 };
 
@@ -67,6 +67,7 @@ function renderMarkdown(markdown: string) {
 
 export function BookModal({ chapter, locale, onClose }: BookModalProps) {
   const text = labels[locale];
+  const localizedChapter = chapter.translations[locale] ?? chapter;
 
   return (
     <div className="fixed inset-0 z-50 flex items-end bg-black/70 p-3 backdrop-blur-sm sm:items-center sm:p-6">
@@ -74,9 +75,9 @@ export function BookModal({ chapter, locale, onClose }: BookModalProps) {
         <header className="flex items-start justify-between gap-4 border-b border-white/10 p-4 sm:p-5">
           <div>
             <p className="text-xs uppercase tracking-[0.2em] text-gold/75">
-              {text.source} · {chapter.file}
+              {text.source} · {localizedChapter.file}
             </p>
-            <h1 className="mt-2 text-2xl font-semibold text-rice">{chapter.title}</h1>
+            <h1 className="mt-2 text-2xl font-semibold text-rice">{localizedChapter.title}</h1>
             <p className="mt-2 text-xs text-rice/45">{text.note}</p>
           </div>
           <button
@@ -90,7 +91,7 @@ export function BookModal({ chapter, locale, onClose }: BookModalProps) {
           </button>
         </header>
         <div className="min-h-0 flex-1 space-y-5 overflow-y-auto p-4 sm:p-6">
-          {renderMarkdown(chapter.markdown)}
+          {renderMarkdown(localizedChapter.markdown)}
         </div>
       </section>
     </div>
