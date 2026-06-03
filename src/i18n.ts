@@ -127,6 +127,13 @@ export function localizeFamily(family: string, locale: Locale) {
   return familyTranslations[family]?.[locale] ?? family;
 }
 
+export function localizeShortFamily(family: string, locale: Locale) {
+  return localizeFamily(family, locale)
+    .replace(/^Famille\s+/i, "")
+    .replace(/\s+family$/i, "")
+    .replace(/类$/u, "");
+}
+
 export function localizeJinText(jin: JinEntry, key: keyof JinEntry, locale: Locale) {
   const original = jin[key];
   if (locale === "fr" || typeof original !== "string") {

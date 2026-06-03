@@ -10,7 +10,6 @@ import type { JinEntry } from "../types";
 type JinDetailProps = {
   jin: JinEntry;
   locale: Locale;
-  voiceURI?: string;
 };
 
 const sections: Array<keyof Pick<
@@ -32,7 +31,7 @@ const sections: Array<keyof Pick<
   "masteryMilestone",
 ];
 
-export function JinDetail({ jin, locale, voiceURI }: JinDetailProps) {
+export function JinDetail({ jin, locale }: JinDetailProps) {
   const [isBookOpen, setIsBookOpen] = useState(false);
   const chapter = useMemo(
     () => bookChapters.find((item) => item.chinese === jin.chinese),
@@ -61,7 +60,7 @@ export function JinDetail({ jin, locale, voiceURI }: JinDetailProps) {
                   }
                 }}
               />
-              <AudioButton jin={jin} voiceURI={voiceURI} />
+              <AudioButton jin={jin} />
             </div>
           </div>
         </header>

@@ -16,28 +16,21 @@ function getVoicesWhenReady() {
   });
 }
 
-export async function getAvailableSpeechVoices() {
+async function findPreferredVoice() {
   const voices = await getVoicesWhenReady();
-  const chineseVoices = voices.filter((voice) => voice.lang.toLowerCase().startsWith("zh"));
-  return chineseVoices.length > 0 ? chineseVoices : voices;
-}
-
-async function findPreferredVoice(voiceURI?: string) {
-  const voices = await getVoicesWhenReady();
-  if (voiceURI) {
-    const selectedVoice = voices.find((voice) => voice.voiceURI === voiceURI);
-    if (selectedVoice) {
-      return selectedVoice;
-    }
-  }
+  const isTingtingZhCn = (voice: SpeechSynthesisVoice) => {
+    const name = `${voice.name} ${voice.voiceURI}`.toLowerCase();
+    return voice.lang.toLowerCase() === "zh-cn" && name.includes("tingting");
+  };
 
   return (
+    voices.find(isTingtingZhCn) ??
     voices.find((voice) => voice.lang.toLowerCase() === "zh-cn") ??
     voices.find((voice) => voice.lang.toLowerCase().startsWith("zh"))
   );
 }
 
-export async function playOrCreateAudio(jin: JinEntry, voiceURI?: string) {
+export async function playOrCreateAudio(jin: JinEntry) {
   if (!("speechSynthesis" in window)) {
     throw new Error("La synthèse vocale n'est pas disponible dans ce navigateur.");
   }
@@ -49,7 +42,7 @@ export async function playOrCreateAudio(jin: JinEntry, voiceURI?: string) {
   utterance.pitch = 0.95;
   utterance.lang = "zh-CN";
 
-  const voice = await findPreferredVoice(voiceURI);
+  const voice = await findPreferredVoice();
   if (voice) {
     utterance.voice = voice;
   }
