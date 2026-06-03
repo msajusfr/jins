@@ -1,10 +1,13 @@
 import { useEffect, useMemo, useState } from "react";
 import { EmptyState } from "../components/EmptyState";
+import { BookButton } from "../components/BookButton";
+import { BookModal } from "../components/BookModal";
 import { JinDetail } from "../components/JinDetail";
 import { JinList } from "../components/JinList";
 import { LanguageSelector } from "../components/LanguageSelector";
 import { SearchPanel } from "../components/SearchPanel";
 import { VoiceSelector } from "../components/VoiceSelector";
+import { bookIntroduction } from "../data/bookIntroduction";
 import { jins } from "../data/jins";
 import { useJinSearch } from "../hooks/useJinSearch";
 import { useSpeechVoices } from "../hooks/useSpeechVoices";
@@ -13,11 +16,18 @@ import { uiText } from "../i18n";
 import { playOrCreateAudio } from "../services/audioService";
 import type { JinEntry } from "../types";
 
+const introductionLabels: Record<Locale, string> = {
+  fr: "Lire l'introduction",
+  en: "Read the introduction",
+  zh: "阅读导言",
+};
+
 export function HomePage() {
   const [query, setQuery] = useState("");
   const [locale, setLocale] = useState<Locale>("fr");
   const [selectedVoiceURI, setSelectedVoiceURI] = useState<string | undefined>();
   const [selectedJin, setSelectedJin] = useState<JinEntry | undefined>();
+  const [isIntroductionOpen, setIsIntroductionOpen] = useState(false);
   const filteredJins = useJinSearch(jins, query);
   const speechVoices = useSpeechVoices();
   const familyCount = useMemo(() => new Set(jins.map((jin) => jin.family)).size, []);
@@ -47,7 +57,15 @@ export function HomePage() {
             <h1 className="mt-2 text-4xl font-bold tracking-tight text-rice md:text-5xl">Jin's</h1>
           </div>
           <div className="flex flex-col items-start gap-3 md:items-end">
-            <LanguageSelector locale={locale} onLocaleChange={setLocale} />
+            <div className="flex items-center gap-2">
+              <LanguageSelector locale={locale} onLocaleChange={setLocale} />
+              <BookButton
+                disabled={false}
+                label={introductionLabels[locale]}
+                locale={locale}
+                onClick={() => setIsIntroductionOpen(true)}
+              />
+            </div>
             <VoiceSelector
               voices={speechVoices}
               selectedVoiceURI={selectedVoiceURI}
@@ -83,6 +101,13 @@ export function HomePage() {
           )}
         </div>
       </div>
+      {isIntroductionOpen ? (
+        <BookModal
+          chapter={bookIntroduction}
+          locale={locale}
+          onClose={() => setIsIntroductionOpen(false)}
+        />
+      ) : null}
     </main>
   );
 }
