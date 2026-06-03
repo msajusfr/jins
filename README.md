@@ -14,6 +14,10 @@ Web app React pour consulter un glossaire des Jìn des arts martiaux chinois et 
 
 L'interface propose trois langues via les boutons drapeaux : français, anglais et chinois.
 
+## Livre
+
+Les fichiers Markdown du livre sont stockés dans `doc/book/`. Quand un Jìn possède un chapitre correspondant, l'icône livre dans le panneau détail ouvre le passage associé.
+
 ## Installation locale
 
 ```bash
