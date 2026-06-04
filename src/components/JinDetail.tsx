@@ -6,6 +6,7 @@ import { bookChapters } from "../data/bookChapters";
 import type { Locale } from "../i18n";
 import { localizeFamily, localizeJinText, sectionTitles } from "../i18n";
 import type { JinEntry } from "../types";
+import { JinIllustration } from "./JinIllustration";
 
 type JinDetailProps = {
   jin: JinEntry;
@@ -44,7 +45,10 @@ export function JinDetail({ jin, locale }: JinDetailProps) {
         <header className="relative border-b border-white/10 p-5 md:p-7">
           <div className="flex items-start justify-between gap-4">
             <div>
-              <h2 className="text-6xl font-bold leading-none text-rice md:text-7xl">{jin.chinese}</h2>
+              <div className="flex items-start gap-4 text-rice">
+                <h2 className="text-6xl font-bold leading-none md:text-7xl">{jin.chinese}</h2>
+                <JinIllustration jinId={jin.id} />
+              </div>
               <p className="mt-4 text-lg font-semibold text-gold">{jin.pinyin}</p>
               <p className="mt-1 text-sm text-rice/62">
                 {jin.displayName} · {localizeFamily(jin.family, locale)}
