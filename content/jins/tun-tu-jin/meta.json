@@ -1,0 +1,34 @@
+{
+  "id": "tun-tu-jin",
+  "chinese": "吞吐劲",
+  "pinyin": "tūntǔ jìn",
+  "displayName": "Tun Tu Jin",
+  "family": {
+    "fr": "Famille lourde, descendante et unifiante"
+  },
+  "sections": {
+    "shortDefinition": {
+      "fr": "avaler puis recracher"
+    },
+    "detailedExplanation": {
+      "fr": "litt. « avaler puis recracher ». C’est l’un des schémas les plus précieux en combat réel : absorber, stocker, renvoyer. On le retrouve sous des formes voisines dans plusieurs internes."
+    },
+    "biomechanics": {
+      "fr": "phase d’accueil excentrique puis restitution dirigée."
+    },
+    "drill": {
+      "fr": "avaler-pousser, avaler-split, avaler-fajin."
+    },
+    "martialApplication": {
+      "fr": "retourner immédiatement une entrée adverse."
+    },
+    "commonMistakes": {
+      "fr": "séparer les deux temps au point de devenir prévisible."
+    },
+    "masteryMilestone": {
+      "fr": "quasi absence de coupure entre réception et émission."
+    }
+  },
+  "audioText": "吞吐劲",
+  "image": "/images/jins/tun-tu-jin.png"
+}

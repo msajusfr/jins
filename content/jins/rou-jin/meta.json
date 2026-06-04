@@ -1,0 +1,31 @@
+{
+  "id": "rou-jin",
+  "chinese": "柔劲",
+  "pinyin": "róu jìn",
+  "displayName": "Rou Jin",
+  "family": {
+    "fr": "Forces transverses des traditions Xingyi, Baji et Mantis"
+  },
+  "sections": {
+    "shortDefinition": {
+      "fr": "force souple"
+    },
+    "detailedExplanation": {
+      "fr": "litt. « force souple ». C’est la qualité yin fondamentale : céder, suivre, conserver la continuité. Elle n’est pas mollesse mais souplesse fonctionnelle."
+    },
+    "drill": {
+      "fr": "neutralisation, écoute, transitions lentes."
+    },
+    "martialApplication": {
+      "fr": "absorber et guider."
+    },
+    "commonMistakes": {
+      "fr": "lâcheté structurelle."
+    },
+    "masteryMilestone": {
+      "fr": "céder sans perdre l’axe."
+    }
+  },
+  "audioText": "柔劲",
+  "image": "/images/jins/rou-jin.png"
+}

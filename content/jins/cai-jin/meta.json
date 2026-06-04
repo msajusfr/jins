@@ -1,0 +1,34 @@
+{
+  "id": "cai-jin",
+  "chinese": "采劲",
+  "pinyin": "cǎi jìn",
+  "displayName": "Cai Jin",
+  "family": {
+    "fr": "Huit jìn canoniques du taijiquan"
+  },
+  "sections": {
+    "shortDefinition": {
+      "fr": "jìn de cueillir/plucker"
+    },
+    "detailedExplanation": {
+      "fr": "litt. « jìn de cueillir/plucker ». Décrocher un angle, un poignet, un coude, un col."
+    },
+    "biomechanics": {
+      "fr": "petit crochet spiralé avec baisse du centre."
+    },
+    "drill": {
+      "fr": "plucks au tuishou et en applications."
+    },
+    "martialApplication": {
+      "fr": "déséquilibre diagonal, qinna, préparation de chute."
+    },
+    "commonMistakes": {
+      "fr": "tirer au lieu de cueillir."
+    },
+    "masteryMilestone": {
+      "fr": "décrocher avec très peu de déplacement."
+    }
+  },
+  "audioText": "采劲",
+  "image": "/images/jins/cai-jin.png"
+}

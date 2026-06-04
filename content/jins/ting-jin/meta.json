@@ -1,0 +1,34 @@
+{
+  "id": "ting-jin",
+  "chinese": "听劲",
+  "pinyin": "tīng jìn",
+  "displayName": "Ting Jin",
+  "family": {
+    "fr": "Famille collante, perceptive et de contrôle"
+  },
+  "sections": {
+    "shortDefinition": {
+      "fr": "force d’écoute"
+    },
+    "detailedExplanation": {
+      "fr": "litt. « force d’écoute ». L’un des concepts les plus importants. Dans les classiques, écouter précède comprendre, transformer, saisir et émettre. Ce n’est pas mystique : c’est une perception tactile-proprioceptive des trajets de force, des vides, des temps faibles et des asymétries."
+    },
+    "biomechanics": {
+      "fr": "sensibilité par le point de contact, mais aussi par les pieds, le pelvis, les changements de centre de pression."
+    },
+    "drill": {
+      "fr": "tuishou très lent, yeux parfois semi-déconnectés, lecture des départs de force, travail à une main puis deux mains."
+    },
+    "martialApplication": {
+      "fr": "lire la poussée avant sa pleine expression."
+    },
+    "commonMistakes": {
+      "fr": "chercher à « deviner » mentalement ; laisser l’ego précéder la sensation."
+    },
+    "masteryMilestone": {
+      "fr": "détecter direction, profondeur et timing sans regarder les mains."
+    }
+  },
+  "audioText": "听劲",
+  "image": "/images/jins/ting-jin.png"
+}

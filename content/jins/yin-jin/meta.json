@@ -1,0 +1,34 @@
+{
+  "id": "yin-jin",
+  "chinese": "引劲",
+  "pinyin": "yǐn jìn",
+  "displayName": "Yin Jin",
+  "family": {
+    "fr": "Famille collante, perceptive et de contrôle"
+  },
+  "sections": {
+    "shortDefinition": {
+      "fr": "force de guidage"
+    },
+    "detailedExplanation": {
+      "fr": "litt. « force de guidage ». Elle prolonge 化劲 : non seulement tu neutralises, mais tu emmènes l’adversaire quelque part — dans le vide, dans une spirale, dans une chute ou vers ton propre jìn suivant."
+    },
+    "biomechanics": {
+      "fr": "micro-traction ou appât vectoriel avec pas concordant."
+    },
+    "drill": {
+      "fr": "attirer sur le vide, sur diagonale, sur double main."
+    },
+    "martialApplication": {
+      "fr": "faire monter, tourner ou sur-étendre."
+    },
+    "commonMistakes": {
+      "fr": "tirer avec le bras."
+    },
+    "masteryMilestone": {
+      "fr": "l’adversaire se déplace par sa propre poussée."
+    }
+  },
+  "audioText": "引劲",
+  "image": "/images/jins/yin-jin.png"
+}

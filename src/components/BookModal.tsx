@@ -1,5 +1,5 @@
 import { X } from "lucide-react";
-import type { BookChapter } from "../data/bookChapters";
+import type { BookChapter } from "../data/generated/bookChapters.generated";
 import type { Locale } from "../i18n";
 
 type BookModalProps = {

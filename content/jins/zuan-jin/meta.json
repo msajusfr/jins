@@ -1,0 +1,34 @@
+{
+  "id": "zuan-jin",
+  "chinese": "钻劲",
+  "pinyin": "zuān jìn",
+  "displayName": "Zuan Jin",
+  "family": {
+    "fr": "Famille spiralée, rotative et enveloppante"
+  },
+  "sections": {
+    "shortDefinition": {
+      "fr": "force de forage/perçage"
+    },
+    "detailedExplanation": {
+      "fr": "litt. « force de forage/perçage ». Voisine de 螺旋劲 mais plus pointée, plus « tête de foret ». Dans une lecture interstyles, elle rappelle la logique du drilling xingyi : ligne courte, spirale serrée, intention qui « passe au travers »."
+    },
+    "biomechanics": {
+      "fr": "alignement poignet-coude-épaule, bassin qui pousse sans télégrapher, impulsion antérieure basse puis montante si besoin."
+    },
+    "drill": {
+      "fr": "paume-perçoir, poing-perçoir, entrée sur centreline, travail à courte distance."
+    },
+    "martialApplication": {
+      "fr": "percer le garde-bras, entrer sur gorge/visage/plexus, casser la racine."
+    },
+    "commonMistakes": {
+      "fr": "lever les épaules, chercher la pénétration avec le bras."
+    },
+    "masteryMilestone": {
+      "fr": "pouvoir percer à distance courte sans élan visible."
+    }
+  },
+  "audioText": "钻劲",
+  "image": "/images/jins/zuan-jin.png"
+}

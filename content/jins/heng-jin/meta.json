@@ -1,0 +1,34 @@
+{
+  "id": "heng-jin",
+  "chinese": "横劲",
+  "pinyin": "héng jìn",
+  "displayName": "Heng Jin",
+  "family": {
+    "fr": "Forces transverses des traditions Xingyi, Baji et Mantis"
+  },
+  "sections": {
+    "shortDefinition": {
+      "fr": "force horizontale"
+    },
+    "detailedExplanation": {
+      "fr": "litt. « force horizontale ». Traverse la ligne latéralement ; utile pour barrer, dévier, couper le centre."
+    },
+    "biomechanics": {
+      "fr": "rotation transversale du bassin et du tronc, ligne d’épaule vivante."
+    },
+    "drill": {
+      "fr": "barrages et frappes latérales."
+    },
+    "martialApplication": {
+      "fr": "casser l’angle d’entrée."
+    },
+    "commonMistakes": {
+      "fr": "swing large."
+    },
+    "masteryMilestone": {
+      "fr": "ligne latérale courte et lourde."
+    }
+  },
+  "audioText": "横劲",
+  "image": "/images/jins/heng-jin.png"
+}

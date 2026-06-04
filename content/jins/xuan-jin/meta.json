@@ -1,0 +1,31 @@
+{
+  "id": "xuan-jin",
+  "chinese": "旋劲",
+  "pinyin": "xuán jìn",
+  "displayName": "Xuan Jin",
+  "family": {
+    "fr": "Famille spiralée, rotative et enveloppante"
+  },
+  "sections": {
+    "shortDefinition": {
+      "fr": "force de rotation"
+    },
+    "detailedExplanation": {
+      "fr": "litt. « force de rotation ». C’est le terme le plus générique de la sous-famille : rotation autour de soi, de l’adversaire ou du point de contact. Il devient tactiquement précis seulement quand un axe et un but sont définis."
+    },
+    "drill": {
+      "fr": "pivots de taille, rotations de hanches, cercles courts au contact."
+    },
+    "martialApplication": {
+      "fr": "retourner, faire chuter, relancer vers split/press/push."
+    },
+    "commonMistakes": {
+      "fr": "tourner pour tourner ; oublier la cible."
+    },
+    "masteryMilestone": {
+      "fr": "chaque rotation produit un effet concret sur la structure adverse."
+    }
+  },
+  "audioText": "旋劲",
+  "image": "/images/jins/xuan-jin.png"
+}

@@ -1,0 +1,34 @@
+{
+  "id": "fa-jin",
+  "chinese": "发劲",
+  "pinyin": "fā jìn",
+  "displayName": "Fa Jin",
+  "family": {
+    "fr": "Famille d’émission, d’explosion et de pénétration"
+  },
+  "sections": {
+    "shortDefinition": {
+      "fr": "émettre la force"
+    },
+    "detailedExplanation": {
+      "fr": "litt. « émettre la force ». Terme-mère. Définition : émission coordonnée du corps entier dans un point, une ligne ou une surface."
+    },
+    "biomechanics": {
+      "fr": "réaction du sol, accélération brève, enchaînement proximal-distal, verrouillage fugitif puis relâchement. Organisation interne : yi simple et unidirectionnel, souffle court ou naturellement expulsé."
+    },
+    "drill": {
+      "fr": "émission sur coussin, paume, avant-bras, épaule."
+    },
+    "martialApplication": {
+      "fr": "frapper, projeter, secouer, arracher."
+    },
+    "commonMistakes": {
+      "fr": "arm-swing, préparation visible, crispation après impact."
+    },
+    "masteryMilestone": {
+      "fr": "impulsion courte, nette, sans raideur résiduelle."
+    }
+  },
+  "audioText": "发劲",
+  "image": "/images/jins/fa-jin.png"
+}

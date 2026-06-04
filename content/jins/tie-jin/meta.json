@@ -1,0 +1,31 @@
+{
+  "id": "tie-jin",
+  "chinese": "铁劲",
+  "pinyin": "tiě jìn",
+  "displayName": "Tie Jin",
+  "family": {
+    "fr": "Forces transverses des traditions Xingyi, Baji et Mantis"
+  },
+  "sections": {
+    "shortDefinition": {
+      "fr": "force de fer"
+    },
+    "detailedExplanation": {
+      "fr": "litt. « force de fer ». Qualité de rigidité dense et résistante, utile mais dangereuse si elle devient la base permanente du système. À réserver comme mode transitoire, pas comme habitude."
+    },
+    "drill": {
+      "fr": "mise en raideur brève, frappes courtes, corps lourd."
+    },
+    "martialApplication": {
+      "fr": "absorber un choc ou finir une ligne."
+    },
+    "commonMistakes": {
+      "fr": "s’endurcir tout le temps."
+    },
+    "masteryMilestone": {
+      "fr": "pouvoir devenir “fer” instantanément puis redevenir souple."
+    }
+  },
+  "audioText": "铁劲",
+  "image": "/images/jins/tie-jin.png"
+}

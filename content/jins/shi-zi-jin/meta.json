@@ -1,0 +1,31 @@
+{
+  "id": "shi-zi-jin",
+  "chinese": "十字劲",
+  "pinyin": "shízì jìn",
+  "displayName": "Shi Zi Jin",
+  "family": {
+    "fr": "Forces transverses des traditions Xingyi, Baji et Mantis"
+  },
+  "sections": {
+    "shortDefinition": {
+      "fr": "force en croix"
+    },
+    "detailedExplanation": {
+      "fr": "litt. « force en croix ». Combinaison de deux axes perpendiculaires : très utile pour les ruptures de structure, notamment quand un axe fixe et l’autre traverse."
+    },
+    "drill": {
+      "fr": "croix bras-bassin, frappes croisées, fendage diagonal."
+    },
+    "martialApplication": {
+      "fr": "interdire plusieurs sorties simultanément."
+    },
+    "commonMistakes": {
+      "fr": "seulement croiser les bras visuellement."
+    },
+    "masteryMilestone": {
+      "fr": "la croix a un centre vivant."
+    }
+  },
+  "audioText": "十字劲",
+  "image": "/images/jins/shi-zi-jin.png"
+}

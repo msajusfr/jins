@@ -1,0 +1,34 @@
+{
+  "id": "zhan-jin",
+  "chinese": "沾劲",
+  "pinyin": "zhān jìn",
+  "displayName": "Zhan Jin",
+  "family": {
+    "fr": "Famille collante, perceptive et de contrôle"
+  },
+  "sections": {
+    "shortDefinition": {
+      "fr": "force d’adhérence"
+    },
+    "detailedExplanation": {
+      "fr": "litt. « force d’adhérence ». Premier degré du contact : tu touches et tu ne rebondis pas. C’est plus léger et plus instantané que 黏劲."
+    },
+    "biomechanics": {
+      "fr": "faible co-contraction, surface de contact douce, poignet vivant, scapula flottante. Organisation interne : yi sur « poser sans coller fort »."
+    },
+    "drill": {
+      "fr": "toucher-suivre-retirer, légers contacts d’avant-bras."
+    },
+    "martialApplication": {
+      "fr": "établir le pont sans offrir de prise."
+    },
+    "commonMistakes": {
+      "fr": "pousser dès le contact."
+    },
+    "masteryMilestone": {
+      "fr": "pouvoir toucher et suivre sans déclencher de résistance."
+    }
+  },
+  "audioText": "沾劲",
+  "image": "/images/jins/zhan-jin.png"
+}

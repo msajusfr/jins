@@ -1,0 +1,31 @@
+{
+  "id": "fang-jin",
+  "chinese": "放劲",
+  "pinyin": "fàng jìn",
+  "displayName": "Fang Jin",
+  "family": {
+    "fr": "Famille longue, extensive et traversante"
+  },
+  "sections": {
+    "shortDefinition": {
+      "fr": "force relâchée/projetée"
+    },
+    "detailedExplanation": {
+      "fr": "litt. « force relâchée/projetée ». Fàng peut signifier relâcher, laisser partir, projeter. Dans la pratique, c’est souvent le jìn qui libère la force accumulée dans une ligne longue ou moyenne."
+    },
+    "drill": {
+      "fr": "lâchers de paume, projection sur pad, push-release."
+    },
+    "martialApplication": {
+      "fr": "envoyer le partenaire au loin plutôt que le percer."
+    },
+    "commonMistakes": {
+      "fr": "lancer les bras."
+    },
+    "masteryMilestone": {
+      "fr": "la force “part” sans casser la structure."
+    }
+  },
+  "audioText": "放劲",
+  "image": "/images/jins/fang-jin.png"
+}

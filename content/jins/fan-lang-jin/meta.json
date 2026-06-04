@@ -1,0 +1,34 @@
+{
+  "id": "fan-lang-jin",
+  "chinese": "翻浪劲",
+  "pinyin": "fānlàng jìn",
+  "displayName": "Fan Lang Jin",
+  "family": {
+    "fr": "Forces transverses des traditions Xingyi, Baji et Mantis"
+  },
+  "sections": {
+    "shortDefinition": {
+      "fr": "force de vague renversée"
+    },
+    "detailedExplanation": {
+      "fr": "litt. « force de vague renversée ». Qualité ondée, roulante et montante-descendante, très utile pour casser la stabilité par vagues successives."
+    },
+    "biomechanics": {
+      "fr": "onde pied-bassin-colonne-bras, comme une houle qui passe."
+    },
+    "drill": {
+      "fr": "grands enchaînements roulés, sac/bouclier en flux."
+    },
+    "martialApplication": {
+      "fr": "bousculer le centre, accumuler les perturbations."
+    },
+    "commonMistakes": {
+      "fr": "faire des vagues esthétiques sans charge réelle."
+    },
+    "masteryMilestone": {
+      "fr": "chaque vague déplace le partenaire."
+    }
+  },
+  "audioText": "翻浪劲",
+  "image": "/images/jins/fan-lang-jin.png"
+}

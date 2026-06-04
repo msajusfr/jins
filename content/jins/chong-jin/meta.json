@@ -1,0 +1,34 @@
+{
+  "id": "chong-jin",
+  "chinese": "冲劲",
+  "pinyin": "chōng jìn",
+  "displayName": "Chong Jin",
+  "family": {
+    "fr": "Famille d’émission, d’explosion et de pénétration"
+  },
+  "sections": {
+    "shortDefinition": {
+      "fr": "force de charge/ruée"
+    },
+    "detailedExplanation": {
+      "fr": "litt. « force de charge/ruée ». Plus frontale, plus envahissante. Bon terme pour une entrée agressive portée par les jambes et le buste."
+    },
+    "biomechanics": {
+      "fr": "projection du centre de masse, angle de tibia et hanche orientés vers l’entrée."
+    },
+    "drill": {
+      "fr": "entrées sur bouclier, pas de chasse, percussions de corps."
+    },
+    "martialApplication": {
+      "fr": "briser la distance, traverser la garde."
+    },
+    "commonMistakes": {
+      "fr": "se jeter sans racine."
+    },
+    "masteryMilestone": {
+      "fr": "avancer tout en restant structuré."
+    }
+  },
+  "audioText": "冲劲",
+  "image": "/images/jins/chong-jin.png"
+}

@@ -1,0 +1,34 @@
+{
+  "id": "peng-jin",
+  "chinese": "掤劲",
+  "pinyin": "péng jìn",
+  "displayName": "Peng Jin",
+  "family": {
+    "fr": "Huit jìn canoniques du taijiquan"
+  },
+  "sections": {
+    "shortDefinition": {
+      "fr": "jìn de soutien-expansion"
+    },
+    "detailedExplanation": {
+      "fr": "litt. « jìn de soutien-expansion ». Structure gonflée, ni molle ni dure, qui soutient dans toutes les directions."
+    },
+    "biomechanics": {
+      "fr": "spirale externe, dos plein, coudes ronds, axe vertical vivant."
+    },
+    "drill": {
+      "fr": "ward-off fixes et en pas."
+    },
+    "martialApplication": {
+      "fr": "relever, déraciner, empêcher l’écrasement."
+    },
+    "commonMistakes": {
+      "fr": "confondre péng avec pousser."
+    },
+    "masteryMilestone": {
+      "fr": "on ne peut pas te comprimer sans te faire déplacer tout entier."
+    }
+  },
+  "audioText": "掤劲",
+  "image": "/images/jins/peng-jin.png"
+}

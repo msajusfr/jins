@@ -1,0 +1,34 @@
+{
+  "id": "mo-pan-jin",
+  "chinese": "磨盘劲",
+  "pinyin": "mópán jìn",
+  "displayName": "Mo Pan Jin",
+  "family": {
+    "fr": "Famille spiralée, rotative et enveloppante"
+  },
+  "sections": {
+    "shortDefinition": {
+      "fr": "force de meule"
+    },
+    "detailedExplanation": {
+      "fr": "litt. « force de meule ». Cercle plus large, plus « disque » que vis. Le moteur est la taille et le kua, les bras n’étant que les rayons. Très utile pour déplacer un appui latéral ou retourner une poussée croisée. Organisation"
+    },
+    "biomechanics": {
+      "fr": "Organisation interne : respiration basse, sentiment de tourner autour d’un centre lourd."
+    },
+    "drill": {
+      "fr": "grands cercles debout, bâton court autour du dantian, contact sur deux mains."
+    },
+    "martialApplication": {
+      "fr": "sortir l’adversaire de son carré d’appuis, casser l’angle d’une entrée."
+    },
+    "commonMistakes": {
+      "fr": "pivoter seulement les bras, poser le poids en dehors des pieds."
+    },
+    "masteryMilestone": {
+      "fr": "faire bouger la base adverse sans accélération visible."
+    }
+  },
+  "audioText": "磨盘劲",
+  "image": "/images/jins/mo-pan-jin.png"
+}

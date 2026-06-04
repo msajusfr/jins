@@ -1,0 +1,34 @@
+{
+  "id": "lu-jin",
+  "chinese": "捋劲",
+  "pinyin": "lǚ jìn",
+  "displayName": "Lu Jin",
+  "family": {
+    "fr": "Huit jìn canoniques du taijiquan"
+  },
+  "sections": {
+    "shortDefinition": {
+      "fr": "jìn de rouleau-retour"
+    },
+    "detailedExplanation": {
+      "fr": "litt. « jìn de rouleau-retour ». L’orthographe varie selon les corpus ; la fonction reste : guider l’attaque dans un arc de retrait."
+    },
+    "biomechanics": {
+      "fr": "rotation de taille + déchargement + traction douce."
+    },
+    "drill": {
+      "fr": "rollback de saisies, de poussées, de frappes."
+    },
+    "martialApplication": {
+      "fr": "amener dans le vide."
+    },
+    "commonMistakes": {
+      "fr": "tirer avec les biceps."
+    },
+    "masteryMilestone": {
+      "fr": "l’adversaire s’étire sur sa propre force."
+    }
+  },
+  "audioText": "捋劲",
+  "image": "/images/jins/lu-jin.png"
+}

@@ -1,0 +1,34 @@
+{
+  "id": "nian-jin",
+  "chinese": "黏劲",
+  "pinyin": "nián jìn",
+  "displayName": "Nian Jin",
+  "family": {
+    "fr": "Famille collante, perceptive et de contrôle"
+  },
+  "sections": {
+    "shortDefinition": {
+      "fr": "force collante/visqueuse"
+    },
+    "detailedExplanation": {
+      "fr": "litt. « force collante/visqueuse ». Deuxième degré : la continuité du suivi. Ici on ne « pose » plus seulement ; on accompagne les variations de pression et de direction."
+    },
+    "biomechanics": {
+      "fr": "variations fines de tonus, flexion/extension microscopique du coude, mobilité de l’appui."
+    },
+    "drill": {
+      "fr": "tuishou fixe, cercles collés, changements de vitesse."
+    },
+    "martialApplication": {
+      "fr": "suivre un retrait, empêcher la séparation, sentir l’intention."
+    },
+    "commonMistakes": {
+      "fr": "coller par raideur ; accrocher avec les doigts."
+    },
+    "masteryMilestone": {
+      "fr": "maintenir le lien même quand l’adversaire accélère ou change d’axe."
+    }
+  },
+  "audioText": "黏劲",
+  "image": "/images/jins/nian-jin-brush.png"
+}

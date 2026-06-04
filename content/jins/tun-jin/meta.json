@@ -1,0 +1,34 @@
+{
+  "id": "tun-jin",
+  "chinese": "吞劲",
+  "pinyin": "tūn jìn",
+  "displayName": "Tun Jin",
+  "family": {
+    "fr": "Famille lourde, descendante et unifiante"
+  },
+  "sections": {
+    "shortDefinition": {
+      "fr": "force d’avaler/absorber"
+    },
+    "detailedExplanation": {
+      "fr": "litt. « force d’avaler/absorber ». Très important dans la logique"
+    },
+    "biomechanics": {
+      "fr": "ouverture du kua, décharge du point de contact, recul/rotation minime, transformation du vecteur vers le centre. Organisation interne : tu reçois l’énergie et l’emmènes à l’intérieur de ta structure plutôt que la subir frontalement."
+    },
+    "drill": {
+      "fr": "absorber poussées/frappes lentes au contact, travail de poitrine/vide/dos plein."
+    },
+    "martialApplication": {
+      "fr": "faire entrer l’adversaire trop loin."
+    },
+    "commonMistakes": {
+      "fr": "reculer au lieu d’avaler."
+    },
+    "masteryMilestone": {
+      "fr": "l’attaque semble disparaître dans ton corps sans te déplacer excessivement."
+    }
+  },
+  "audioText": "吞劲",
+  "image": "/images/jins/tun-jin.png"
+}

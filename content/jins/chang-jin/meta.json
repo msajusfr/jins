@@ -1,0 +1,34 @@
+{
+  "id": "chang-jin",
+  "chinese": "长劲",
+  "pinyin": "cháng jìn",
+  "displayName": "Chang Jin",
+  "family": {
+    "fr": "Famille longue, extensive et traversante"
+  },
+  "sections": {
+    "shortDefinition": {
+      "fr": "force longue"
+    },
+    "detailedExplanation": {
+      "fr": "litt. « force longue ». Définition : capacité à garder du jìn tout au long de la trajectoire, sans effondrement entre démarrage et fin."
+    },
+    "biomechanics": {
+      "fr": "extension organisée, bassin-colonne-bras en chaîne, centre qui continue derrière la main."
+    },
+    "drill": {
+      "fr": "formes longues, paumes longues, travail au bâton/lance pour sentir la ligne continue."
+    },
+    "martialApplication": {
+      "fr": "contrôler à moyenne distance, pousser/projeter sans rupture."
+    },
+    "commonMistakes": {
+      "fr": "sur-allonger en perdant la racine."
+    },
+    "masteryMilestone": {
+      "fr": "continuité de force du départ à l’aboutissement."
+    }
+  },
+  "audioText": "长劲",
+  "image": "/images/jins/chang-jin.png"
+}

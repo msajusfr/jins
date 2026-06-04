@@ -1,0 +1,34 @@
+{
+  "id": "luo-xuan-jin",
+  "chinese": "螺旋劲",
+  "pinyin": "luóxuán jìn",
+  "displayName": "Luo Xuan Jin",
+  "family": {
+    "fr": "Famille spiralée, rotative et enveloppante"
+  },
+  "sections": {
+    "shortDefinition": {
+      "fr": "force hélicoïdale"
+    },
+    "detailedExplanation": {
+      "fr": "litt. « force hélicoïdale ». Plus « géométrique » que 缠丝劲 : on insiste sur la vis tridimensionnelle du vecteur, souvent avec intention de percer ou de déchirer la ligne. Bon pont entre taiji, xingyi et baguazhang."
+    },
+    "biomechanics": {
+      "fr": "torsion spirale couplée à un déplacement vectoriel net ; le coude mène, la main finit."
+    },
+    "drill": {
+      "fr": "perçage en paume, poing, avant-bras ; travail sur manche/pad."
+    },
+    "martialApplication": {
+      "fr": "traverser une garde, visser dans le sternum, l’épaule ou la hanche."
+    },
+    "commonMistakes": {
+      "fr": "vriller sans avancer ; avancer sans visser."
+    },
+    "masteryMilestone": {
+      "fr": "profondeur perceptible avec effort visuel minimal."
+    }
+  },
+  "audioText": "螺旋劲",
+  "image": "/images/jins/luo-xuan-jin.png"
+}

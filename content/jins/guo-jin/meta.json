@@ -1,0 +1,34 @@
+{
+  "id": "guo-jin",
+  "chinese": "裹劲",
+  "pinyin": "guǒ jìn",
+  "displayName": "Guo Jin",
+  "family": {
+    "fr": "Famille spiralée, rotative et enveloppante"
+  },
+  "sections": {
+    "shortDefinition": {
+      "fr": "force d’enveloppement"
+    },
+    "detailedExplanation": {
+      "fr": "litt. « force d’enveloppement ». Ici la spirale devient containment : le but est de couvrir, emballer, enfermer. Très utile en qinna, contrôle d’épaule, de coude ou de garde haute."
+    },
+    "biomechanics": {
+      "fr": "adduction des bras sans fermeture thoracique, coude collant, taille qui ferme un anneau."
+    },
+    "drill": {
+      "fr": "envelopper le poignet puis le coude, roulages collés, prises dynamiques."
+    },
+    "martialApplication": {
+      "fr": "piéger un punching arm, fermer le haut du corps avant entrée hanche/épaule."
+    },
+    "commonMistakes": {
+      "fr": "écraser sans englober ; perdre le contact profond."
+    },
+    "masteryMilestone": {
+      "fr": "partenaire contenu avant même la saisie franche."
+    }
+  },
+  "audioText": "裹劲",
+  "image": "/images/jins/guo-jin.png"
+}

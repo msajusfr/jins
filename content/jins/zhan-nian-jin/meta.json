@@ -1,0 +1,31 @@
+{
+  "id": "zhan-nian-jin",
+  "chinese": "沾黏劲",
+  "pinyin": "zhānnián jìn",
+  "displayName": "Zhan Nian Jin",
+  "family": {
+    "fr": "Famille collante, perceptive et de contrôle"
+  },
+  "sections": {
+    "shortDefinition": {
+      "fr": "adhérer-coller"
+    },
+    "detailedExplanation": {
+      "fr": "litt. « adhérer-coller ». Terme combiné courant : installation du pont + maintien dynamique. Pédagogiquement très utile, même si les lignages séparent parfois davantage."
+    },
+    "drill": {
+      "fr": "contact initial léger qui devient suivi continu."
+    },
+    "martialApplication": {
+      "fr": "entrée douce suivie d’un contrôle."
+    },
+    "commonMistakes": {
+      "fr": "tout faire avec la main, sans le corps."
+    },
+    "masteryMilestone": {
+      "fr": "le contact se fait « tout seul » sans chercher la main adverse."
+    }
+  },
+  "audioText": "沾黏劲",
+  "image": "/images/jins/zhan-nian-jin.png"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "zheng-jin",
+  "chinese": "整劲",
+  "pinyin": "zhěng jìn",
+  "displayName": "Zheng Jin",
+  "family": {
+    "fr": "Famille lourde, descendante et unifiante"
+  },
+  "sections": {
+    "shortDefinition": {
+      "fr": "force intégrale/unifiée"
+    },
+    "detailedExplanation": {
+      "fr": "litt. « force intégrale/unifiée ». Ce n’est pas seulement un jìn de plus ; c’est un critère de qualité pour tous les autres. Toute émission vraiment martiale doit être 整 : pas de fuite locale, pas de membre indépendant, pas de rupture entre sol-centre-main."
+    },
+    "drill": {
+      "fr": "formes lentes, émissions minimales, tests de connexion à plusieurs points."
+    },
+    "martialApplication": {
+      "fr": "toute technique."
+    },
+    "commonMistakes": {
+      "fr": "croire qu’“uniforme” signifie rigide partout."
+    },
+    "masteryMilestone": {
+      "fr": "chacun des autres jìn devient plus simple quand 整劲 est présent."
+    }
+  },
+  "audioText": "整劲",
+  "image": "/images/jins/zheng-jin.png"
+}

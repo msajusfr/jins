@@ -1,0 +1,34 @@
+{
+  "id": "chan-jin",
+  "chinese": "缠劲",
+  "pinyin": "chán jìn",
+  "displayName": "Chan Jin",
+  "family": {
+    "fr": "Famille spiralée, rotative et enveloppante"
+  },
+  "sections": {
+    "shortDefinition": {
+      "fr": "force d’enroulement"
+    },
+    "detailedExplanation": {
+      "fr": "litt. « force d’enroulement ». Concept très général : envelopper en restant collé à la trajectoire adverse. Plus large que 缠丝劲 ; peut être utilisé pour contrôler, saisir, étouffer une ligne, ou préparer un arrachement."
+    },
+    "biomechanics": {
+      "fr": "spirale continue bras-tronc-hanches avec coude vivant et poignet jamais mort."
+    },
+    "drill": {
+      "fr": "enroulements alternés sur bras partenaire, serpentins de poings/paumes, contrôles sans rupture."
+    },
+    "martialApplication": {
+      "fr": "rouler sur une frappe, entrer sur un bras et prendre le centre."
+    },
+    "commonMistakes": {
+      "fr": "trop serrer trop tôt ; confondre enrouler et saisir."
+    },
+    "masteryMilestone": {
+      "fr": "sentir que le partenaire « entre tout seul » dans la spirale."
+    }
+  },
+  "audioText": "缠劲",
+  "image": "/images/jins/chan-jin.png"
+}

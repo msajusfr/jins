@@ -1,0 +1,34 @@
+{
+  "id": "shu-jin",
+  "chinese": "竖劲",
+  "pinyin": "shù jìn",
+  "displayName": "Shu Jin",
+  "family": {
+    "fr": "Forces transverses des traditions Xingyi, Baji et Mantis"
+  },
+  "sections": {
+    "shortDefinition": {
+      "fr": "force verticale"
+    },
+    "detailedExplanation": {
+      "fr": "litt. « force verticale ». Peut servir à soulever, ramener vers le bas, ou structurer l’axe."
+    },
+    "biomechanics": {
+      "fr": "polarité haut-bas claire."
+    },
+    "drill": {
+      "fr": "soulèvements, descentes, axes."
+    },
+    "martialApplication": {
+      "fr": "relever le centre ou l’écraser."
+    },
+    "commonMistakes": {
+      "fr": "travailler verticalement sans connexion au sol."
+    },
+    "masteryMilestone": {
+      "fr": "axe vertical stable en mouvement."
+    }
+  },
+  "audioText": "竖劲",
+  "image": "/images/jins/shu-jin.png"
+}

@@ -1,0 +1,34 @@
+{
+  "id": "zhou-jin",
+  "chinese": "肘劲",
+  "pinyin": "zhǒu jìn",
+  "displayName": "Zhou Jin",
+  "family": {
+    "fr": "Huit jìn canoniques du taijiquan"
+  },
+  "sections": {
+    "shortDefinition": {
+      "fr": "jìn de coude"
+    },
+    "detailedExplanation": {
+      "fr": "litt. « jìn de coude ». Courte portée, très dense."
+    },
+    "biomechanics": {
+      "fr": "coude porté par le centre, omoplate connectée, pas d’épaule qui précède."
+    },
+    "drill": {
+      "fr": "lignes de coude, entrées sur garde."
+    },
+    "martialApplication": {
+      "fr": "très courte distance, sortie de clinch, corps à corps."
+    },
+    "commonMistakes": {
+      "fr": "lever le coude et frapper de l’épaule."
+    },
+    "masteryMilestone": {
+      "fr": "coude compact qui entre sans armement."
+    }
+  },
+  "audioText": "肘劲",
+  "image": "/images/jins/zhou-jin.png"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "gang-jin",
+  "chinese": "刚劲",
+  "pinyin": "gāng jìn",
+  "displayName": "Gang Jin",
+  "family": {
+    "fr": "Forces transverses des traditions Xingyi, Baji et Mantis"
+  },
+  "sections": {
+    "shortDefinition": {
+      "fr": "force dure/ferme"
+    },
+    "detailedExplanation": {
+      "fr": "litt. « force dure/ferme ». Qualité yang : structurante, directe, cassante si nécessaire. En arts internes, elle doit être produite par le souple, pas opposée au souple."
+    },
+    "drill": {
+      "fr": "émission nette, lignes franches, percussions courtes."
+    },
+    "martialApplication": {
+      "fr": "conclure après l’ouverture créée par 柔劲."
+    },
+    "commonMistakes": {
+      "fr": "durcir d’entrée."
+    },
+    "masteryMilestone": {
+      "fr": "alternance souple/ferme sans conflit intérieur."
+    }
+  },
+  "audioText": "刚劲",
+  "image": "/images/jins/gang-jin.png"
+}

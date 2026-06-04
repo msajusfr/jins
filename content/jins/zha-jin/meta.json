@@ -1,0 +1,31 @@
+{
+  "id": "zha-jin",
+  "chinese": "炸劲",
+  "pinyin": "zhà jìn",
+  "displayName": "Zha Jin",
+  "family": {
+    "fr": "Famille d’émission, d’explosion et de pénétration"
+  },
+  "sections": {
+    "shortDefinition": {
+      "fr": "force de détonation"
+    },
+    "detailedExplanation": {
+      "fr": "litt. « force de détonation ». Version la plus dure de la sous-famille : pic de force très bref, souvent sur surface de contact courte et à moment tactique critique. À réserver aux pratiquants déjà structurés."
+    },
+    "drill": {
+      "fr": "frappes très protégées, paume/poing/avant-bras, travail rare mais précis."
+    },
+    "martialApplication": {
+      "fr": "finir une ouverture nette."
+    },
+    "commonMistakes": {
+      "fr": "brutaliser l’entraînement, sacrifier la structure."
+    },
+    "masteryMilestone": {
+      "fr": "détonation propre, non “sale”."
+    }
+  },
+  "audioText": "炸劲",
+  "image": "/images/jins/zha-jin.png"
+}

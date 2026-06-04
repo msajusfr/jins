@@ -1,0 +1,31 @@
+{
+  "id": "guan-jin",
+  "chinese": "贯劲",
+  "pinyin": "guàn jìn",
+  "displayName": "Guan Jin",
+  "family": {
+    "fr": "Famille longue, extensive et traversante"
+  },
+  "sections": {
+    "shortDefinition": {
+      "fr": "force qui transperce/enfile"
+    },
+    "detailedExplanation": {
+      "fr": "litt. « force qui transperce/enfile ». Proche de 透劲 mais davantage centrée sur la notion de fil conducteur qui traverse le corps puis la cible."
+    },
+    "drill": {
+      "fr": "wood/staff thrust models, paumes traversantes, body-behind-the-point."
+    },
+    "martialApplication": {
+      "fr": "pénétrer un axe épaule-bassin ou sternum-rachis."
+    },
+    "commonMistakes": {
+      "fr": "confondre traverser avec pousser longtemps."
+    },
+    "masteryMilestone": {
+      "fr": "vecteur propre, peu de dispersion latérale."
+    }
+  },
+  "audioText": "贯劲",
+  "image": "/images/jins/guan-jin.png"
+}

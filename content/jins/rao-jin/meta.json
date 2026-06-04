@@ -1,0 +1,34 @@
+{
+  "id": "rao-jin",
+  "chinese": "绕劲",
+  "pinyin": "rào jìn",
+  "displayName": "Rao Jin",
+  "family": {
+    "fr": "Famille spiralée, rotative et enveloppante"
+  },
+  "sections": {
+    "shortDefinition": {
+      "fr": "force de contournement"
+    },
+    "detailedExplanation": {
+      "fr": "litt. « force de contournement ». Accent sur le fait de tourner autour de la ligne adverse plutôt que la bloquer. C’est une force d’orbite, très utile contre le linéaire."
+    },
+    "biomechanics": {
+      "fr": "déplacement du centre de masse hors de la ligne, bras qui tournent comme satellites du noyau central."
+    },
+    "drill": {
+      "fr": "esquive + contact spiralé, contournements de poignets, empreinte sur pas circulaires."
+    },
+    "martialApplication": {
+      "fr": "sortir d’une poussée ou d’une saisie, revenir sur le flanc."
+    },
+    "commonMistakes": {
+      "fr": "tourner large et perdre le temps ; laisser le bras en arrière."
+    },
+    "masteryMilestone": {
+      "fr": "gagner l’angle sans saut ni rupture."
+    }
+  },
+  "audioText": "绕劲",
+  "image": "/images/jins/rao-jin.png"
+}

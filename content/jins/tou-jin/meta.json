@@ -1,0 +1,34 @@
+{
+  "id": "tou-jin",
+  "chinese": "透劲",
+  "pinyin": "tòu jìn",
+  "displayName": "Tou Jin",
+  "family": {
+    "fr": "Famille d’émission, d’explosion et de pénétration"
+  },
+  "sections": {
+    "shortDefinition": {
+      "fr": "force traversante/pénétrante"
+    },
+    "detailedExplanation": {
+      "fr": "litt. « force traversante/pénétrante ». L’idée n’est pas seulement d’impacter la surface, mais de projeter la ligne de force au-delà du point de contact."
+    },
+    "biomechanics": {
+      "fr": "alignement plus “lancé” qu’écrasé, coude derrière la ligne, continuité après l’instant d’impact."
+    },
+    "drill": {
+      "fr": "frappes traversantes sur bouclier, paume/poing/avant-bras, pénétration sur poussée."
+    },
+    "martialApplication": {
+      "fr": "casser la structure à l’intérieur du tronc ou du bassin."
+    },
+    "commonMistakes": {
+      "fr": "pousser au lieu de traverser."
+    },
+    "masteryMilestone": {
+      "fr": "sensation que la ligne continue après le contact."
+    }
+  },
+  "audioText": "透劲",
+  "image": "/images/jins/tou-jin.png"
+}

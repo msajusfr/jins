@@ -1,0 +1,31 @@
+{
+  "id": "lie-jin-2",
+  "chinese": "裂劲",
+  "pinyin": "liè jìn",
+  "displayName": "Lie Jin",
+  "family": {
+    "fr": "Forces transverses des traditions Xingyi, Baji et Mantis"
+  },
+  "sections": {
+    "shortDefinition": {
+      "fr": "force de déchirure"
+    },
+    "detailedExplanation": {
+      "fr": "litt. « force de déchirure ». Très proche de 挒劲 mais vocabulaire plus large interstyles : déchirer la ligne, la garde ou l’appui."
+    },
+    "drill": {
+      "fr": "arrachement diagonal, déchirements coude-poignet."
+    },
+    "martialApplication": {
+      "fr": "ouvrir, fendre, exposer."
+    },
+    "commonMistakes": {
+      "fr": "brutaliser sans préparation."
+    },
+    "masteryMilestone": {
+      "fr": "rupture nette de continuité adverse."
+    }
+  },
+  "audioText": "裂劲",
+  "image": "/images/jins/lie-jin-2.png"
+}

@@ -1,0 +1,34 @@
+{
+  "id": "kao-jin",
+  "chinese": "靠劲",
+  "pinyin": "kào jìn",
+  "displayName": "Kao Jin",
+  "family": {
+    "fr": "Huit jìn canoniques du taijiquan"
+  },
+  "sections": {
+    "shortDefinition": {
+      "fr": "jìn d’appui corporel/épaule"
+    },
+    "detailedExplanation": {
+      "fr": "litt. « jìn d’appui corporel/épaule ». Utilisation de la masse du tronc, épaule, dos, hanche."
+    },
+    "biomechanics": {
+      "fr": "centre de masse qui envahit, alignement jambe-bassin-tronc."
+    },
+    "drill": {
+      "fr": "entrées épaules/hanches sur bouclier, applications de la forme."
+    },
+    "martialApplication": {
+      "fr": "percuter, projeter, coincer."
+    },
+    "commonMistakes": {
+      "fr": "se jeter en avant."
+    },
+    "masteryMilestone": {
+      "fr": "le corps frappe comme une unité."
+    }
+  },
+  "audioText": "靠劲",
+  "image": "/images/jins/kao-jin.png"
+}

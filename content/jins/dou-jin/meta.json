@@ -1,0 +1,34 @@
+{
+  "id": "dou-jin",
+  "chinese": "抖劲",
+  "pinyin": "dǒu jìn",
+  "displayName": "Dou Jin",
+  "family": {
+    "fr": "Famille d’émission, d’explosion et de pénétration"
+  },
+  "sections": {
+    "shortDefinition": {
+      "fr": "force de secousse/tremblement"
+    },
+    "detailedExplanation": {
+      "fr": "litt. « force de secousse/tremblement ». Très utile pour briser les saisies, faire “sauter” une structure ou dégoûter une conservation de contact adverse."
+    },
+    "biomechanics": {
+      "fr": "onde courte qui traverse les segments, souvent issue du bassin/rachis plus que de la main."
+    },
+    "drill": {
+      "fr": "secousses courtes sur manches, avant-bras, poignets."
+    },
+    "martialApplication": {
+      "fr": "rompre un grip, choquer la racine, préparer projection."
+    },
+    "commonMistakes": {
+      "fr": "gesticuler."
+    },
+    "masteryMilestone": {
+      "fr": "petit mouvement, grande perturbation de contact."
+    }
+  },
+  "audioText": "抖劲",
+  "image": "/images/jins/dou-jin.png"
+}

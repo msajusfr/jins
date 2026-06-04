@@ -1,0 +1,34 @@
+{
+  "id": "chan-si-jin",
+  "chinese": "缠丝劲",
+  "pinyin": "chánsī jìn",
+  "displayName": "Chan Si Jin",
+  "family": {
+    "fr": "Famille spiralée, rotative et enveloppante"
+  },
+  "sections": {
+    "shortDefinition": {
+      "fr": "force de dévidage de soie"
+    },
+    "detailedExplanation": {
+      "fr": "litt. « force de dévidage de soie ». C’est la référence écrite la plus solide de toute cette famille. Définition : force raffinée hélicoïdale, continue, sans cassure, coordonnant tout le corps."
+    },
+    "biomechanics": {
+      "fr": "rotation des segments autour de leurs axes longs, démarrage au centre, expression terminale sobre. Organisation interne : yi continu, souffle bas, alternance shun/ni, sentiment de tirer un fil sans le rompre."
+    },
+    "drill": {
+      "fr": "chan-si gong simple/double main, unilatéral puis bilatéral, puis forme."
+    },
+    "martialApplication": {
+      "fr": "neutraliser, préparer fa-jin, faire na, traverser."
+    },
+    "commonMistakes": {
+      "fr": "dessiner des cercles décoratifs, surmobiliser les poignets, perdre le centre."
+    },
+    "masteryMilestone": {
+      "fr": "pouvoir réduire le cercle jusqu’à l’interne sans perdre la spirale."
+    }
+  },
+  "audioText": "缠丝劲",
+  "image": "/images/jins/chan-si-jin.png"
+}

@@ -1,0 +1,34 @@
+{
+  "id": "an-jin",
+  "chinese": "按劲",
+  "pinyin": "àn jìn",
+  "displayName": "An Jin",
+  "family": {
+    "fr": "Huit jìn canoniques du taijiquan"
+  },
+  "sections": {
+    "shortDefinition": {
+      "fr": "jìn d’appui/poussée/pression"
+    },
+    "detailedExplanation": {
+      "fr": "litt. « jìn d’appui/poussée/pression ». Poussée lourde, souvent descendante puis avant."
+    },
+    "biomechanics": {
+      "fr": "centre qui avance et “s’assied” dans l’émission."
+    },
+    "drill": {
+      "fr": "pushs de fin de séquence."
+    },
+    "martialApplication": {
+      "fr": "projeter, asseoir, rompre."
+    },
+    "commonMistakes": {
+      "fr": "pousser haut avec les épaules."
+    },
+    "masteryMilestone": {
+      "fr": "la force sort du sol, pas des bras."
+    }
+  },
+  "audioText": "按劲",
+  "image": "/images/jins/an-jin.png"
+}

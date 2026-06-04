@@ -1,0 +1,34 @@
+{
+  "id": "lie-jin",
+  "chinese": "挒劲",
+  "pinyin": "liè jìn",
+  "displayName": "Lie Jin",
+  "family": {
+    "fr": "Huit jìn canoniques du taijiquan"
+  },
+  "sections": {
+    "shortDefinition": {
+      "fr": "jìn de fendre/séparer"
+    },
+    "detailedExplanation": {
+      "fr": "litt. « jìn de fendre/séparer ». Deux forces opposées divisent la structure."
+    },
+    "biomechanics": {
+      "fr": "torsion contrariée haut/bas ou gauche/droite."
+    },
+    "drill": {
+      "fr": "split sur bras-tronc, épaule-bassin."
+    },
+    "martialApplication": {
+      "fr": "rupture posturale, chute par séparation."
+    },
+    "commonMistakes": {
+      "fr": "faire deux gestes indépendants."
+    },
+    "masteryMilestone": {
+      "fr": "la séparation vient du centre, pas des deux mains."
+    }
+  },
+  "audioText": "挒劲",
+  "image": "/images/jins/lie-jin.png"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "bao-jin",
+  "chinese": "爆劲",
+  "pinyin": "bào jìn",
+  "displayName": "Bao Jin",
+  "family": {
+    "fr": "Famille d’émission, d’explosion et de pénétration"
+  },
+  "sections": {
+    "shortDefinition": {
+      "fr": "force explosive"
+    },
+    "detailedExplanation": {
+      "fr": "litt. « force explosive ». Variante plus insistante sur la violence de l’impulsion et son caractère soudain. Plus “bang” que 发劲."
+    },
+    "drill": {
+      "fr": "travail pad très court, relâchement-réveil."
+    },
+    "martialApplication": {
+      "fr": "surprendre un adversaire déjà connecté."
+    },
+    "commonMistakes": {
+      "fr": "confondre explosion et accélération désordonnée."
+    },
+    "masteryMilestone": {
+      "fr": "montée très rapide de force sans longue préparation."
+    }
+  },
+  "audioText": "爆劲",
+  "image": "/images/jins/bao-jin.png"
+}

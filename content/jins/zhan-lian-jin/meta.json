@@ -1,0 +1,31 @@
+{
+  "id": "zhan-lian-jin",
+  "chinese": "粘连劲",
+  "pinyin": "zhānlián jìn",
+  "displayName": "Zhan Lian Jin",
+  "family": {
+    "fr": "Famille collante, perceptive et de contrôle"
+  },
+  "sections": {
+    "shortDefinition": {
+      "fr": "force de collage-liaison"
+    },
+    "detailedExplanation": {
+      "fr": "litt. « force de collage-liaison ». Insiste sur la continuité du lien à travers les transitions, changements de mains et déplacements. Très important en mobile push-hands et en combat rapproché."
+    },
+    "drill": {
+      "fr": "rester en connexion sur changement de côté, de niveau, de main ; suivi après échappement partiel."
+    },
+    "martialApplication": {
+      "fr": "empêcher la “reset distance”."
+    },
+    "commonMistakes": {
+      "fr": "croire que coller signifie rester frontal."
+    },
+    "masteryMilestone": {
+      "fr": "conserver la relation quand la forme change."
+    }
+  },
+  "audioText": "粘连劲",
+  "image": "/images/jins/zhan-lian-jin.png"
+}

@@ -2,7 +2,7 @@ import { useMemo, useState } from "react";
 import { AudioButton } from "./AudioButton";
 import { BookButton } from "./BookButton";
 import { BookModal } from "./BookModal";
-import { bookChapters } from "../data/bookChapters";
+import { bookChapters } from "../data/generated/bookChapters.generated";
 import type { Locale } from "../i18n";
 import { localizeFamily, localizeJinText, sectionTitles } from "../i18n";
 import type { JinEntry } from "../types";

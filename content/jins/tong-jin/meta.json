@@ -1,0 +1,31 @@
+{
+  "id": "tong-jin",
+  "chinese": "通劲",
+  "pinyin": "tōng jìn",
+  "displayName": "Tong Jin",
+  "family": {
+    "fr": "Famille longue, extensive et traversante"
+  },
+  "sections": {
+    "shortDefinition": {
+      "fr": "force qui passe/communique"
+    },
+    "detailedExplanation": {
+      "fr": "litt. « force qui passe/communique ». Souvent comprise comme la capacité de faire passer la force à travers les segments sans blocage. C’est un critère de conduction interne."
+    },
+    "drill": {
+      "fr": "émissions à travers le dos, l’épaule, le coude, le poignet ; travail de cohérence segmentaire."
+    },
+    "martialApplication": {
+      "fr": "partout où la force doit “passer” sans être arrêtée par une articulation morte."
+    },
+    "commonMistakes": {
+      "fr": "travailler l’image énergétique sans vérifier la transmission réelle."
+    },
+    "masteryMilestone": {
+      "fr": "absence de points morts dans la chaîne."
+    }
+  },
+  "audioText": "通劲",
+  "image": "/images/jins/tong-jin.png"
+}

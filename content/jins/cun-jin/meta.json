@@ -1,0 +1,34 @@
+{
+  "id": "cun-jin",
+  "chinese": "寸劲",
+  "pinyin": "cùn jìn",
+  "displayName": "Cun Jin",
+  "family": {
+    "fr": "Famille d’émission, d’explosion et de pénétration"
+  },
+  "sections": {
+    "shortDefinition": {
+      "fr": "force d’un pouce"
+    },
+    "detailedExplanation": {
+      "fr": "litt. « force d’un pouce ». Force de très courte portée ; souvent mal comprise comme un gadget. Le principe réel est la mise en phase et la raideur transitoire au bon instant, pas l’absence de corps."
+    },
+    "biomechanics": {
+      "fr": "très faible amplitude, pré-charge subtile, émission compacte depuis jambes-bassin-tronc vers le point."
+    },
+    "drill": {
+      "fr": "paume et poing à 2–10 cm, contre support stable."
+    },
+    "martialApplication": {
+      "fr": "corps à corps, sortie de clinch, frappe de rupture."
+    },
+    "commonMistakes": {
+      "fr": "taper avec le bras parce que la distance est courte."
+    },
+    "masteryMilestone": {
+      "fr": "petit mouvement, effet profond."
+    }
+  },
+  "audioText": "寸劲",
+  "image": "/images/jins/cun-jin.png"
+}

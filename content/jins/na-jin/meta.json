@@ -1,0 +1,34 @@
+{
+  "id": "na-jin",
+  "chinese": "拿劲",
+  "pinyin": "ná jìn",
+  "displayName": "Na Jin",
+  "family": {
+    "fr": "Famille collante, perceptive et de contrôle"
+  },
+  "sections": {
+    "shortDefinition": {
+      "fr": "force de saisie/contrôle"
+    },
+    "detailedExplanation": {
+      "fr": "litt. « force de saisie/contrôle ». Quand l’écoute et le guidage ont révélé une faille, 拿劲 fixe l’articulation, la chaîne ou l’axe. C’est la face qin-na du système."
+    },
+    "biomechanics": {
+      "fr": "verrou par spirale, adduction, rotation opposée et contrôle du centre."
+    },
+    "drill": {
+      "fr": "contrôles de poignet-coude-épaule, saisie dans le flux, pas coincés."
+    },
+    "martialApplication": {
+      "fr": "immobiliser, amener au sol, préparer projection ou frappe."
+    },
+    "commonMistakes": {
+      "fr": "pincer avec la main seulement ; oublier le centre adverse."
+    },
+    "masteryMilestone": {
+      "fr": "contrôle obtenu sans lutte de mains."
+    }
+  },
+  "audioText": "拿劲",
+  "image": "/images/jins/na-jin.png"
+}

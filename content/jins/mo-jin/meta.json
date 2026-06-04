@@ -1,0 +1,34 @@
+{
+  "id": "mo-jin",
+  "chinese": "磨劲",
+  "pinyin": "mó jìn",
+  "displayName": "Mo Jin",
+  "family": {
+    "fr": "Famille spiralée, rotative et enveloppante"
+  },
+  "sections": {
+    "shortDefinition": {
+      "fr": "force de meulage"
+    },
+    "detailedExplanation": {
+      "fr": "litt. « force de meulage ». Terme surtout pédagogique moderne : pression abrasive et progressive obtenue par deux spirales opposées qui « mangent » la structure adverse au lieu de la heurter."
+    },
+    "biomechanics": {
+      "fr": "alternance pronation/supination, rotation humérale, protraction scapulaire légère, compression venue du sol avec centre de masse qui avance bas et dense. Organisation interne : yi de vis sans fin, expiration continue ou hachée courte selon le moment de serrage."
+    },
+    "drill": {
+      "fr": "torsion de serviette, chan-si sur avant-bras, moulinet contre bras partenaire."
+    },
+    "martialApplication": {
+      "fr": "éroder une garde, ouvrir le coude, écraser un contact en qinna."
+    },
+    "commonMistakes": {
+      "fr": "bras seuls, deltoïdes durs, poitrine sortie."
+    },
+    "masteryMilestone": {
+      "fr": "maintenir une pression spirale constante sur 180–360° sans perdre l’axe."
+    }
+  },
+  "audioText": "磨劲",
+  "image": "/images/jins/mo-jin.png"
+}

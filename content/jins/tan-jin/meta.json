@@ -1,0 +1,34 @@
+{
+  "id": "tan-jin",
+  "chinese": "弹劲",
+  "pinyin": "tán jìn",
+  "displayName": "Tan Jin",
+  "family": {
+    "fr": "Famille d’émission, d’explosion et de pénétration"
+  },
+  "sections": {
+    "shortDefinition": {
+      "fr": "force élastique/sautillante"
+    },
+    "detailedExplanation": {
+      "fr": "litt. « force élastique/sautillante ». Plus rebond, plus restitution que rupture."
+    },
+    "biomechanics": {
+      "fr": "stockage-relâchement, retour élastique, tendon-stiffness plus que masse lourde."
+    },
+    "drill": {
+      "fr": "frappes rebondies, mains collantes avec ressort, pieds/chevilles élastiques."
+    },
+    "martialApplication": {
+      "fr": "contre rapide, secousse, retour de force."
+    },
+    "commonMistakes": {
+      "fr": "bondir verticalement."
+    },
+    "masteryMilestone": {
+      "fr": "puissance sans lourdeur."
+    }
+  },
+  "audioText": "弹劲",
+  "image": "/images/jins/tan-jin.png"
+}

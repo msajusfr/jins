@@ -1,0 +1,34 @@
+{
+  "id": "beng-jin",
+  "chinese": "崩劲",
+  "pinyin": "bēng jìn",
+  "displayName": "Beng Jin",
+  "family": {
+    "fr": "Famille d’émission, d’explosion et de pénétration"
+  },
+  "sections": {
+    "shortDefinition": {
+      "fr": "force de rupture/éclatement"
+    },
+    "detailedExplanation": {
+      "fr": "litt. « force de rupture/éclatement ». Peut évoquer l’idée xingyi de beng : une force qui fend, casse et jaillit droit avec une spirale minimale mais réelle."
+    },
+    "biomechanics": {
+      "fr": "ligne élastique courte, dominante extensor/antérieure, impression de ressort qui casse vers l’avant."
+    },
+    "drill": {
+      "fr": "poing/pao en ligne, pas droit, impact sec."
+    },
+    "martialApplication": {
+      "fr": "traverser le centre, rompre l’alignement."
+    },
+    "commonMistakes": {
+      "fr": "chercher le “dur” sans élasticité."
+    },
+    "masteryMilestone": {
+      "fr": "émission droite avec centre stable."
+    }
+  },
+  "audioText": "崩劲",
+  "image": "/images/jins/beng-jin.png"
+}

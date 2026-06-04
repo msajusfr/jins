@@ -1,0 +1,34 @@
+{
+  "id": "shen-jin",
+  "chinese": "伸劲",
+  "pinyin": "shēn jìn",
+  "displayName": "Shen Jin",
+  "family": {
+    "fr": "Famille longue, extensive et traversante"
+  },
+  "sections": {
+    "shortDefinition": {
+      "fr": "force d’extension"
+    },
+    "detailedExplanation": {
+      "fr": "litt. « force d’extension ». Très utile pour distinguer la bonne allonge de la simple portée anatomique."
+    },
+    "biomechanics": {
+      "fr": "ouverture coordonnée des hanches, colonne, scapula, coude ; la main n’est que le bout de la flèche."
+    },
+    "drill": {
+      "fr": "extension avec retour, paume et avant-bras, travail de “reach without reach”."
+    },
+    "martialApplication": {
+      "fr": "prendre le centre à distance moyenne, ouvrir une garde."
+    },
+    "commonMistakes": {
+      "fr": "tendre le coude en fin de chaîne sans corps."
+    },
+    "masteryMilestone": {
+      "fr": "sensation de s’allonger depuis les pieds."
+    }
+  },
+  "audioText": "伸劲",
+  "image": "/images/jins/shen-jin.png"
+}

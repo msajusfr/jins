@@ -1,0 +1,34 @@
+{
+  "id": "ji-jin",
+  "chinese": "挤劲",
+  "pinyin": "jǐ jìn",
+  "displayName": "Ji Jin",
+  "family": {
+    "fr": "Huit jìn canoniques du taijiquan"
+  },
+  "sections": {
+    "shortDefinition": {
+      "fr": "jìn de pressage"
+    },
+    "detailedExplanation": {
+      "fr": "litt. « jìn de pressage ». Compression convergente par deux lignes qui pressent un axe."
+    },
+    "biomechanics": {
+      "fr": "rapprochement des avant-bras/paumes avec centre qui pousse à travers."
+    },
+    "drill": {
+      "fr": "press du “grasp sparrow’s tail”."
+    },
+    "martialApplication": {
+      "fr": "écraser la garde ou le sternum."
+    },
+    "commonMistakes": {
+      "fr": "écarter les coudes, devenir local."
+    },
+    "masteryMilestone": {
+      "fr": "compression solide avec peu d’amplitude."
+    }
+  },
+  "audioText": "挤劲",
+  "image": "/images/jins/ji-jin.png"
+}

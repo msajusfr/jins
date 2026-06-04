@@ -1,0 +1,34 @@
+{
+  "id": "hua-jin",
+  "chinese": "化劲",
+  "pinyin": "huà jìn",
+  "displayName": "Hua Jin",
+  "family": {
+    "fr": "Famille collante, perceptive et de contrôle"
+  },
+  "sections": {
+    "shortDefinition": {
+      "fr": "force de transformation/neutralisation"
+    },
+    "detailedExplanation": {
+      "fr": "litt. « force de transformation/neutralisation ». Elle ne consiste pas à fuir : elle consiste à changer la relation de force pour que l’attaque perde son effet."
+    },
+    "biomechanics": {
+      "fr": "décharge d’axe, rotation, changement d’appui, déplacement du vide."
+    },
+    "drill": {
+      "fr": "neutralisation sur poussée droite, croisée, montante, descendante ; da lü ; pas mobiles."
+    },
+    "martialApplication": {
+      "fr": "« avaler » l’attaque, la vider et rendre l’émetteur instable."
+    },
+    "commonMistakes": {
+      "fr": "reculer mécaniquement ; sur-tourner."
+    },
+    "masteryMilestone": {
+      "fr": "l’attaque adverse est neutralisée tout en gardant ta propre possibilité d’entrée."
+    }
+  },
+  "audioText": "化劲",
+  "image": "/images/jins/hua-jin.png"
+}
